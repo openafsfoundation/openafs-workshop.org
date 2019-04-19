@@ -1,0 +1,2 @@
+# openafs-workshop
+OpenAFS Workshop
