@@ -1,9 +1,9 @@
 ---
 layout: splash
-permalink: /
+permalink: /demo/01
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/splash-08.jpg
+  overlay_image: /assets/images/splash-01.jpg
   #actions:
   #  - label: "<i class='fas fa-download'></i> Register now"
   #    url: "/register/"
@@ -48,5 +48,3 @@ feature_row:
 ---
 
 {% include feature_row %}
-
-Maybe you'd like one of the <a href="/demos/">alternate splash pages</a> better?
