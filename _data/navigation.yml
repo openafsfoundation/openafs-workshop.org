@@ -1,6 +1,14 @@
 # main links
 main:
-  - title: "Example"
-    url: "/example/"
+  - title: "Registration"
+    url: "/2019/registration"
+  - title: "Location"
+    url: "/2019/location/"
+  - title: "Schedule"
+    url: "/2019/schedule"
+  - title: "Call for Presentations"
+    url: "/2019/cfp/"
+  - title: "Sponsors"
+    url: "/2019/sponsors/"
   - title: "About"
     url: "/about/"

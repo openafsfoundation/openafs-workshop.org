@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: single
 permalink: /about/
 title: "About"
 ---

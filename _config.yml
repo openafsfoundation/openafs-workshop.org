@@ -18,10 +18,10 @@ minimal_mistakes_skin    : "air"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "OpenAFS Workshop"
+title                    : "OpenAFS Workshop 2019"
 title_separator          : "-"
 name                     : "OpenAFS Foundation"
-description              : "A gathering of AFS operators and developers in Pittsburgh on June 19-21, 2019."
+description              : "A workshop for AFS operators and developers in Pittsburgh on June 19-21, 2019."
 url                      : "https://openafs-workshop.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "openafsfoundation/openafs-workshop.org"

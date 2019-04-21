@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: single
 permalink: /demos/
 title: "Page demos"
 ---
