@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "About"
+    url: "/about/"
   - title: "Registration"
     url: "/2019/registration"
   - title: "Location"
@@ -10,5 +12,3 @@ main:
     url: "/2019/cfp/"
   - title: "Sponsors"
     url: "/2019/sponsors/"
-  - title: "About"
-    url: "/about/"
