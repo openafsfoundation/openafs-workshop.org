@@ -2,6 +2,8 @@
 layout: single
 ---
 
+{{ content }}
+
 {% if page.dates %}
 <h2>Important Dates</h2>
 
@@ -16,9 +18,10 @@ layout: single
 {% endif %}
 
 {% if page.timetables %}
+<h2>Timetables</h2>
 {% for tt in page.timetables %}
-<h2>{{ tt.day }}</h2>
-<table>
+<h3>{{ tt.dow }}, {{ tt.date }}</h3>
+<table class="workshop">
   {% for t in tt.timetable %}
   <tr>
     <td>{{ t.time }}</td>
