@@ -8,7 +8,9 @@ The OpenAFS Workshop is a community based effort
 to promote the stability and growth of the AFS
 distributed file system and related technologies.
 
-You are invited to submit a session proposal to
+We believe that all members of the AFS community
+have something valuable to share with others.
+We invite you to submit a session proposal to
 share your experience with colleagues in the AFS
 community.  Sessions types at the workshop include
 presentations, panels, tutorials, and roundtable
@@ -19,7 +21,9 @@ discussions.
 ## Why Present
 
 * **Friendly Audiences**
-* ... etc ...
+* **Rewarding Experience**
+* **Share Your Knowledge**
+* **Contribute to the Community**
 
 
 ## Topics of Interest
@@ -27,12 +31,17 @@ discussions.
 Have a neat new tool you wrote that saves you time
 and effort? Tell us about it. Have an idea you
 want to try out on a bunch of people? Tell us
-about it.
+about it.  Have you done some performance tuning,
+benchmarking, or automated testing?  We would love
+to hear more!
 
 * Site Reports
 * Best Practices
-* ... etc ...
-
+* Case studies and use cases for AFS
+* "Birds of a Feather" (BOF) sessions
+* AFS projects
+* Training & tutorials
+* Or anything else you would like to discuss or showcase.
 
 ## Submission Guidelines
 
