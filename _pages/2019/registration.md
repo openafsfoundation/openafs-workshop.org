@@ -24,3 +24,8 @@ title: "Registration"
         onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>
+
+<br/>
+Ticketing powered by
+<a href="https://www.eventbrite.com/e/openafs-workshop-2019-tickets-60630597750" target="_blank">
+Eventbrite.com</a>.
