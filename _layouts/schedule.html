@@ -1,0 +1,32 @@
+---
+layout: single
+---
+
+{% if page.dates %}
+<h2>Important Dates</h2>
+
+<table>
+{% for d in page.dates %}
+  <tr>
+    <td>{{ d.name }}:</td>
+    <td><strong>{{ d.date }}</strong></td>
+  </tr>
+{% endfor %}
+</table>
+{% endif %}
+
+{% if page.timetables %}
+{% for tt in page.timetables %}
+<h2>{{ tt.day }}</h2>
+<table>
+  {% for t in tt.timetable %}
+  <tr>
+    <td>{{ t.time }}</td>
+    <td>{{ t.event }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endfor %}
+
+{% endif %}
+
