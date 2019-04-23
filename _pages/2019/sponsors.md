@@ -1,5 +1,5 @@
 ---
-layout: sponsors
+layout: workshop/sponsors
 permalink: /2019/sponsors/
 title: "Sponsors"
 logodir: "/assets/images/2019/sponsors"
