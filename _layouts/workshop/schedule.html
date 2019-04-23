@@ -7,6 +7,7 @@ layout: single
 {% if page.dates %}
 <h2>Important Dates</h2>
 
+<div class="workshop__plaintable">
 <table>
 {% for d in page.dates %}
   <tr>
@@ -15,20 +16,23 @@ layout: single
   </tr>
 {% endfor %}
 </table>
+</div>
 {% endif %}
 
 {% if page.timetables %}
 <h2>Timetables</h2>
 {% for tt in page.timetables %}
 <h3>{{ tt.dow }}, {{ tt.date }}</h3>
-<table class="workshop">
+<div class="workshop__timetable">
+<table>
   {% for t in tt.timetable %}
-  <tr>
-    <td>{{ t.time }}</td>
-    <td>{{ t.event }}</td>
+  <tr class="foo">
+    <td class="workshop__time">{{ t.time }}</td>
+    <td class="workshop__event">{{ t.event }}</td>
   </tr>
   {% endfor %}
 </table>
+</div>
 {% endfor %}
 
 {% endif %}
