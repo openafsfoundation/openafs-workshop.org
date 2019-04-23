@@ -9,7 +9,7 @@ title: Sponsors
 <div style="text-align:center">
   <p>
     <a href="https://www.sinenomine.net/">
-      <img src="/assets/images/sponsors/sinenomine-logo.png"
+      <img src="/assets/images/2019/sponsors/sinenomine-logo.png"
          alt="Sine Nomine Associates" />
     </a>
   </p>
