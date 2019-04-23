@@ -4,12 +4,23 @@ permalink: /2019/registration/
 title: "Registration"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan
-viverra erat et blandit. Nunc imperdiet porta ligula ut molestie. Pellentesque
-imperdiet condimentum blandit. Nam ornare, enim eu ultricies dapibus, enim
-neque vulputate neque, sit amet sollicitudin velit est a orci. Quisque
-ultricies a odio a varius. In ligula tortor, iaculis et sapien quis, rutrum
-luctus ex. Nulla interdum sagittis est, at mollis orci varius quis. Sed at
-ipsum nec augue varius tempor at id magna. Integer efficitur auctor odio, sit
-amet suscipit felis dapibus quis. Phasellus eu dapibus est, a dignissim massa.
-Ut vitae efficitur tellus, sit amet congue lorem.
+<div id="eventbrite-widget-container-60630597750"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '60630597750',
+        iframeContainerId: 'eventbrite-widget-container-60630597750',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
