@@ -29,5 +29,5 @@ levels:
 
 ---
 
-Click [here](/2019/sponsorship-info/) to see how to sponsor
+Click [here](/sponsorship/) to see how to sponsor
 the OpenAFS Workshop.
