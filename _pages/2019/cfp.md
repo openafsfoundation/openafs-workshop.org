@@ -58,6 +58,10 @@ Multiple proposals are welcome from the same individual or
 organization.  Speakers should also register for the Workshop.
 
 Please send your proposals for consideration to
-**[openafs.workshop@gmail.com](mailto:openafs.workshop@gmail.com?subject=2019%20cfp)**
-with the subject "2019 cfp".
+<strong>
+<a href="mailto:openafs.workshop@gmail.com?subject=2019%20cfp" target="_blank">
+openafs.workshop@gmail.com
+</a>
+</strong>
+with the subject _2019 cfp_.
 

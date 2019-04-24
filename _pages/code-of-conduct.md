@@ -4,7 +4,7 @@ permalink: /about/code-of-conduct/
 title: "Code of Conduct"
 ---
 
-The OpenAFS Foundation is dedicated to providing a harassment-free conference
+The OpenAFS Workshop is dedicated to providing a harassment-free conference
 experience for everyone, regardless of gender, gender identity and expression,
 sexual orientation, disability, physical appearance, body size, race, age or
 religion (or lack thereof), or technology choices. We do not tolerate
@@ -26,10 +26,10 @@ include:
 Examples of unacceptable behavior by participants include:
 
 * Harassment of conference participants in any form, in person or online
-* Bullying, Insults, or put downs
+* Bullying, insults, or put downs
 * Deliberate intimidation, stalking, or following
 * Violent threats or language directed against another person
-* Sexual language and imagery in any conference venue, including talks
+* Sexual language and imagery in any conference venue, including talks and clothing.
 * Sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
 * Excessive swearing
 * Unwelcome sexual attention or advances
@@ -72,11 +72,11 @@ create a sexualized environment.
 
 ## Reporting
 
-If someone makes you or anyone else feel unsafe or unwelcome, please report it
-as soon as possible.  Please contact a member of the event staff immediately
-directly or by mail at:
-
-* openafs.workshop@gmail.com
+If you are being harassed, notice that someone else is being harassed, or have
+any other concerns, please contact a member of conference staff immediately.
+Please staff immediately directly or by mail at
+<a href="mailto:openafs.workshop@gmail.com?subject=report" target="_blank">
+openafs.workshop@gmail.com</a>
 
 ----
 Credit: This Code of Conduct was adapted from the example policy created by the
