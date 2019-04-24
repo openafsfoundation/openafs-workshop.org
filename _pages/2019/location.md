@@ -6,14 +6,14 @@ title: "Location"
 
 
 We are excited to return to the
-**[The Hyatt House Pittsburgh South Side][1]**
+**[Hyatt House Pittsburgh / South Side][1]**
 in Pittsburgh for the OpenAFS Workshop 2019.
 
 Book your room early to receive the block rate, which is available until
 Tuesday, **May 28, 2019**.  You can make your reservations by calling the hotel
 directly at 412-390-2477, option 3.
 
-**[The Hyatt House Pittsburgh South Side][1]**<br/>
+**[Hyatt House Pittsburgh / South Side][1]**<br/>
 2795 South Water Street<br/>
 Pittsburgh, PA 15203<br/>
 
