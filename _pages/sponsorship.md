@@ -24,6 +24,7 @@ opportunities are available to organizations which would like to participate.
 
 ### Silver ($2,500)
 * 3 ft display space
+* may provide printer literature/dvds to be distributed
 * 1 complementary conference registrations
 
 ### Bronze ($1,000)
