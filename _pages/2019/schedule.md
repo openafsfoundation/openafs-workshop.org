@@ -3,6 +3,8 @@ layout: workshop/schedule
 permalink: /2019/schedule/
 title: Schedule
 dates:
+  - name: Early Bird registration ends
+    date: May 28, 2019
   - name: Hotel block rate ends
     date: May 28, 2019
   - name: Call for presentations deadline

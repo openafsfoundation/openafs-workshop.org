@@ -4,6 +4,11 @@ permalink: /2019/registration/
 title: "Registration"
 ---
 
+Register by **May 28, 2019** to save $50.00 on a Full Workshop registration
+($25.00 for a single day). The Full Workshop registration includes access to
+all sessions and the workshop dinner on June 19, 2019. Guest tickets are
+available for additional guests visiting Pittsburgh during.
+
 <div id="eventbrite-widget-container-60630597750"></div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
