@@ -25,7 +25,11 @@ layout: single
   {% for t in tt.timetable %}
   <tr>
     <td>{{ t.time }}</td>
+    {% if t.ref %}
+    <td><a href="/2019/schedule/{{ t.ref }}/">{{ t.title }}</a></td>
+    {% else %}
     <td>{{ t.title }}</td>
+    {% endif %}
     <td>{{ t.presenter }}</td>
   </tr>
   {% endfor %}
