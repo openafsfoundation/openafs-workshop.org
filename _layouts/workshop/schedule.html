@@ -25,7 +25,8 @@ layout: single
   {% for t in tt.timetable %}
   <tr>
     <td>{{ t.time }}</td>
-    <td>{{ t.event }}</td>
+    <td>{{ t.title }}</td>
+    <td>{{ t.presenter }}</td>
   </tr>
   {% endfor %}
 </table>
