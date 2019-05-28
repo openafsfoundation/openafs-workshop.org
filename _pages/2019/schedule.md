@@ -54,7 +54,6 @@ timetables:
         presenter: Andrew Deason
         ref: dtrace-systemtap-probes-in-openafs
 
-        presenter:
       - time: 2:20PM
         title: Break
 
