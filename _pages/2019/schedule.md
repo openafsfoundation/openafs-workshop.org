@@ -32,9 +32,9 @@ timetables:
         title: Open
 
       - time: 11:30AM
-        title: OpenAFS Site Report - Ericsson
+        title: OpenAFS Site Report - Telecom
         presenter: Michael Meffie
-        ref: openafs-site-report-ericsson
+        ref: openafs-site-report-sunrise
 
       - time: 12:00PM
         title: Lunch
