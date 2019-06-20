@@ -89,7 +89,7 @@ timetables:
       - time: 10:00AM
         title: Break
 
-      - time: 10:30
+      - time: 10:30AM
         title: Open
 
       - time: 11:30AM
