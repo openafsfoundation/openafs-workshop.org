@@ -29,7 +29,8 @@ timetables:
         title: Break
 
       - time: 10:30AM
-        title: Open
+        presenter: Ben Kaduk
+        title: rxgk for OpenAFS update
 
       - time: 11:30AM
         title: OpenAFS Site Report - Telecom
@@ -90,7 +91,7 @@ timetables:
         title: Break
 
       - time: 10:30AM
-        title: Open
+        title: rxgk for OpenAFS
 
       - time: 11:30AM
         title: Faster WAN Volume Operations with DPF
