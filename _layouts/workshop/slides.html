@@ -1,0 +1,13 @@
+---
+layout: single
+---
+
+{{ content }}
+
+<h2>Presentations</h2>
+
+<ul>
+{% for s in page.slides %}
+  <li><a href="/assets/{{ page.year }}/slides/{{ s.file }}">{{ s.title }}</a> - {{ s.author }}</li>
+{% endfor %}
+</ul>
