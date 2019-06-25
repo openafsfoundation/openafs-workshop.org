@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: DTrace/SystemTap SDT Probes in OpenAFS
 permalink: /2019/schedule/dtrace-systemtap-probes-in-openafs/
+slides: 2019-06-19-05-adeason-dtrace.pdf
+presenter: Andrew Deason
 ---
 
 Tools like DTrace and SystemTap can be very useful, but using them with

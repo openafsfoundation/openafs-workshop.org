@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: Overcoming Ubik Limitations
 permalink: /2019/schedule/overcoming-ubik-limitations/
+slides: 2019-06-20-06-mbarbosa-overcoming-ubik-limitations.pdf
+presenter: Marcio Barbosa, Sine Nomine Associates
 ---
 
 The current version of the Ubik subsystem prevents transactions of different

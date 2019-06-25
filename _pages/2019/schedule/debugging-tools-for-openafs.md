@@ -1,7 +1,12 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: Debugging Tools for OpenAFS Linux Cache Manager
 permalink: /2019/schedule/debugging-tools-for-openafs/
+slides: 2019-06-19-04-yyadav-openafs-debugging-tools.pdf
+presenters:
+  - Yadavendra Yadav, IBM
+  - Todd DeSantis, IBM
 ---
 
 Most of the Distributed File systems like OpenAFS, NFS etc. have kernel

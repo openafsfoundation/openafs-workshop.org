@@ -1,0 +1,22 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% if page.presenter %}
+<p>Presenter: <strong>{{ page.presenter }}</strong></p>
+{% endif %}
+
+{% if page.presenters %}
+<p>Presenters:</p>
+<ul>
+  {% for p in page.presenters %}
+  <li><strong>{{ p }}</strong></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if page.slides %}
+<p><a href="/assets/{{ page.year }}/slides/{{ page.slides }}">[slides]</a></p>
+{% endif %}

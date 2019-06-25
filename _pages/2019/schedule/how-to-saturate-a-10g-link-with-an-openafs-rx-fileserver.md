@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: How to Saturate a 10GbE Link with an OpenAFS Rx Fileserver
 permalink: /2019/schedule/how-to-saturate-a-10g-link-with-an-openafs-rx-fileserver/
+slides: 2019-06-19-06-adeason-rxlperf.pdf
+presenter: Andrew Deason
 ---
 
 Network throughput in OpenAFS has always been notoriously bottlenecked by

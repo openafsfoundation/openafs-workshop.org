@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: A Robot Framework Test Suite for OpenAFS
 permalink: /2019/schedule/a-robot-frameworks-test-suite-for-openafs/
+presenter: Michael Meffie, Sine Nomine Associates
+slides: 2019-06-21-01-mmeffie-openafs-robotest.pdf
 ---
 
 Robot Framework is a general-purpose open source automation framework for

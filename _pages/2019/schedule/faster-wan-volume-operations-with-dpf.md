@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: Faster WAN Volume Operations with DPF
 permalink: /2019/schedule/faster-wan-volume-operations-with-dpf/
+slides: 2019-06-20-04-adeason-dpf.pdf
+presenter: Andrew Deason
 ---
 
 Anyone that has tried to release or move a volume across the WAN knows how

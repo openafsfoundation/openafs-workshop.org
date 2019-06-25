@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: VLserver memory cache
 permalink: /2019/schedule/vlserver-memory-cache/
+slides: 2019-06-19-07-mvitale-vlmh.pdf
+presenter: Mark Vitale, Sine Nomine Associates
 ---
 
 For typical OpenAFS cells, vlserver throughput is very low on the list of

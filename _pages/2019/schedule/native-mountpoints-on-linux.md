@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: Native Mountpoints on Linux
 permalink: /2019/schedule/native-mountpoints-on-linux/
+slides: 2019-06-19-03-adeason-linux-mtpt.pdf
+presenter: Andrew Deason
 ---
 
 In existing releases of OpenAFS, AFS mountpoints look like plain directories on

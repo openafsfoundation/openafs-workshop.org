@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: Cross-cell Volume Sync with CellCC
 permalink: /2019/schedule/cross-cell-volume-sync-with-cellcc/
+presenter: Andrew Deason
+slides: 2019-06-20-08-adeason-cellcc.pdf
 ---
 
 As an OpenAFS site grows, it inevitably shifts from using a single cell to

@@ -1,7 +1,12 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: OpenAFS as Persistent Storage inside Kubernetes using Container Storage Interface plugin for OpenAFS
 permalink: /2019/schedule/openafs-as-persistent-storage-inside-kubernetes/
+slides: 2019-06-20-02-yyadav-openafs-csi.pdf
+presenters:
+  - Yadavendra Yadav, IBM
+  - Todd DeSantis, IBM
 ---
 
 Storage is required by containers and pods for a variety of purposes, from

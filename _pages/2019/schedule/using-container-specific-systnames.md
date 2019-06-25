@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: Using Container-specific Sysnames
 permalink: /2019/schedule/using-container-specific-systnames/
+slides: 2019-06-20-01-adeason-atsys.pdf
+presenter: Andrew Deason
 ---
 
 If you've ever thought about using OpenAFS for Docker containers, you may have

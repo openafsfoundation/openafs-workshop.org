@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: workshop/talk
+year: 2019
 title: "Ubik - an introduction"
 permalink: /2019/schedule/ubik-an-introduction/
+slides: 2019-06-20-05-mvitale-intro-to-ubik.pdf
+presenter: Mark Vitale, Sine Nomine Associates
 ---
 
 The OpenAFS filesystem relies on the Ubik subsystem to provide consistency and
