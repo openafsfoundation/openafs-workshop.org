@@ -1,8 +1,10 @@
+.PHONY: all install build
+
+DESTDIR=/var/www/html
 
 all: build
 
-build:
-	jekyll build
+install: build
 
-clean:
-	rm -rf _site
+build:
+	jekyll build -d $(DESTDIR)
