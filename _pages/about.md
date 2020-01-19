@@ -4,9 +4,9 @@ permalink: /about/
 title: "About"
 ---
 
-## About the OpenAFS Workshop
+## About the AFS Workshop
 
-The OpenAFS Workshop is a conference for users, administrators, and developers
+The AFS Workshop is a conference for users, administrators, and developers
 interested in learning more about the AFS distributed filesystem and related
 technologies.  This conference has been organized by the OpenAFS Foundation, a
 non-profit dedicated to fostering the [OpenAFS][1] implementation of AFS.
@@ -25,14 +25,14 @@ The [OpenAFS Foundation][2] has a three-fold mission:
 
 ## Policy
 
-The OpenAFS Workshop is dedicated to providing a harassment-free conference
+The AFS Workshop is dedicated to providing a harassment-free conference
 experience for everyone, regardless of gender, gender identity and expression,
 sexual orientation, disability, physical appearance, body size, race, age or
 religion, or even which operating system you prefer. We do not tolerate
 harassment of conference participants in any form.  Conference participants
 violating these rules may be sanctioned or expelled from the conference without
-a refund at the discretion of the conference organizers. Our anti-harassment
-policy can be found at: [https://openafs-workshop.org/about/code-of-conduct/][3]
+a refund at the discretion of the conference organizers. Please see our
+[anti-harassment policy][3].
 
 
 [1]:https://openafs.org/

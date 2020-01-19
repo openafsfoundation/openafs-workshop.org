@@ -4,7 +4,7 @@ permalink: /sponsorship/
 title: Sponsorship Info
 ---
 
-The OpenAFS Workshop has been made possible by generous support of our
+The AFS Workshop has been made possible by generous support of our
 sponsors.  Please send inquires to <a
 href="mailto:openafs-workshop@gmail.com?subject=sponsor">openafs.workshop@gmail.com</a>
 if your organization is interested in sponsoring the workshop.  The following
