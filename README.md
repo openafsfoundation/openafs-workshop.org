@@ -29,9 +29,9 @@ Install packages to build native extensions.
 
 [Install bundler][2]
 
-    mkdir ~/.ruby
-    export GEM_HOME=~/.ruby
-    export PATH=$PATH:~/.ruby/bin
+    mkdir .ruby
+    export GEM_HOME=.ruby
+    export PATH=$PATH:.ruby/bin
 
     gem install bundler
 
