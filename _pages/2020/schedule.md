@@ -5,10 +5,10 @@ title: Schedule
 dates:
   - name: Call for presentations deadline
     date: February 15, 2020
-  - name: Early Bird registration ends
-    date: May xx, 2020
-  - name: Hotel block rate ends
-    date: May xx, 2020
+  #- name: Early Bird registration ends
+  #  date: May xx, 2020
+  #- name: Hotel block rate ends
+  #  date: May xx, 2020
 timetables:
   - dow: Monday
     date: June 15, 2020
