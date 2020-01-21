@@ -1,0 +1,57 @@
+---
+#
+# Ansible playbook to install jekyll and gems.
+#
+# Example usage:
+#
+#    ansible-playbook -i localhost, -e ansible_connection=local jekyll.yaml
+#
+# (Note the comma after 'localhost')
+#
+#
+- hosts: all
+  vars:
+    gem_home: "{{ projectdir | default('.') }}/.ruby"
+  tasks:
+    - name: Install packages to build native extensions
+      become: yes
+      apt:
+        update_cache: yes
+        state: present
+        name:
+          - build-essential
+          - autoconf
+          - zlib1g-dev
+      when: ansible_os_family == 'Debian'
+
+    - name: Install ruby
+      become: yes
+      apt:
+        state: present
+        name:
+          - ruby
+          - ruby-dev
+      when: ansible_os_family == 'Debian'
+
+    - name: Make local ruby directory
+      file:
+        state: directory
+        path: "{{ gem_home }}"
+
+    - name: Install bundler
+      gem:
+        name: bundler
+        state: present
+        install_dir: "{{ gem_home }}"
+        user_install: no
+      environment:
+        GEM_HOME: "{{ gem_home }}"
+
+    - name: Install jekyll and gems required for theme
+      bundler:
+        state: present
+        executable: "{{ gem_home }}/bin/bundle"
+        gem_path: "{{ gem_home }}"
+        binstub_directory: "{{ gem_home }}/bin"
+      environment:
+        GEM_HOME: "{{ gem_home }}"
