@@ -4,12 +4,13 @@ permalink: /about/
 title: "About"
 ---
 
-## About the AFS Workshop
+## About the AFS Technologies Workshop
 
-The AFS Workshop is a conference for users, administrators, and developers
-interested in learning more about the AFS distributed filesystem and related
-technologies.  This conference has been organized by the OpenAFS Foundation, a
-non-profit dedicated to fostering the [OpenAFS][1] implementation of AFS.
+The AFS Technologies Workshop is a conference for users, administrators, and
+developers interested in learning more about the AFS distributed filesystem and
+related technologies.  This conference has been organized by the [OpenAFS
+Foundation][2], a non-profit dedicated to fostering the [OpenAFS][1] implementation
+of AFS.
 
 ## About the OpenAFS Foundation
 
@@ -35,6 +36,6 @@ a refund at the discretion of the conference organizers. Please see our
 [anti-harassment policy][3].
 
 
-[1]:https://openafs.org/
-[2]:http://openafsfoundation.org/
+[1]:https://www.openafs.org/
+[2]:https://www.openafsfoundation.org/
 [3]:/about/code-of-conduct/
