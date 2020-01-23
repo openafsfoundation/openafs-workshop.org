@@ -4,6 +4,9 @@ title: "Call for Presentations"
 permalink: /cfp/
 ---
 
+The Call for Presentations for the 2020 AFS Technologies Workshop
+is open until **February 15, 2020**.
+
 We believe that all members of the AFS community have something valuable to
 share with others.  We invite you to submit a session proposal to share your
 experience with colleagues in the AFS community.  Sessions types at the

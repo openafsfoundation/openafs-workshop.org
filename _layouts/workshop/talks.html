@@ -1,0 +1,11 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% for t in page.talks %}
+<h2>{{ t.title }}</h2>
+<p>{{ t.desc }}</p>
+<p>Presented by: {{ t.presenter }}</p>
+{% endfor %}
