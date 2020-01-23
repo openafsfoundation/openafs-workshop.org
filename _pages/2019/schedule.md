@@ -1,5 +1,5 @@
 ---
-layout: workshop/schedule
+layout: workshop/schedule-2019
 permalink: /2019/schedule/
 title: Schedule
 dates:

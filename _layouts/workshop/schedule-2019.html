@@ -27,12 +27,12 @@ layout: single
     <td>{{ t.time }}</td>
     <td>
     {% if t.ref %}
-    <a href="/schedule/{{ t.ref }}/">{{ t.title }}</a>
+    <a href="/2019/schedule/{{ t.ref }}/">{{ t.title }}</a>
     {% else %}
     {{ t.title }}
     {% endif %}
     {% if t.slides %}
-    <a href="/assets/slides/{{ t.slides }}">[slides]</a>
+    <a href="/assets/2019/slides/{{ t.slides }}">[slides]</a>
     {% endif %}
     </td>
     <td>{{ t.presenter }}</td>

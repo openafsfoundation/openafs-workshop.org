@@ -194,6 +194,9 @@ exclude:
   - Makefile.config
   - .ruby
   - jekyll.yaml
+  - "_pages/2019/*"  # old pages
+  - "assets/2019/*"  # old files
+  - "assets/images/2019/*"  # old images
 keep_files:
   - .git
   - .svn

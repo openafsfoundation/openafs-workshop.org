@@ -1,6 +1,6 @@
 ---
 layout: workshop/sponsors
-permalink: /2020/sponsors/
+permalink: /sponsors/
 title: "Sponsors"
 logodir: "/assets/images/sponsors"
 levels:

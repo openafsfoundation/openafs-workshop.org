@@ -1,6 +1,6 @@
 ---
 layout: workshop/schedule
-permalink: /2020/schedule/
+permalink: /schedule/
 title: Schedule
 dates:
   - name: Call for presentations deadline

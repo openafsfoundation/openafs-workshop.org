@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Call for Presentations"
-permalink: /2020/cfp/
+permalink: /cfp/
 ---
 
 We believe that all members of the AFS community have something valuable to

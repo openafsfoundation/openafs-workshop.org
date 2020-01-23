@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /2020/location/
+permalink: /location/
 title: "Location"
 ---
 
