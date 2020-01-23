@@ -191,6 +191,7 @@ exclude:
   - "*.gemspec"
   - README.md
   - Makefile
+  - Makefile.config
   - .ruby
   - jekyll.yaml
 keep_files:
