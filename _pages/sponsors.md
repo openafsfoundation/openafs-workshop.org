@@ -14,10 +14,7 @@ levels:
     sponsors:
 ---
 
-<br/>
-<br/>
-<br/>
-<br/>
+Stay tuned for 2020 AFS Technologies Workshop sponsorship announcements.
 
 ---
 

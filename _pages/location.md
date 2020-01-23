@@ -4,9 +4,10 @@ permalink: /location/
 title: "Location"
 ---
 
-The Ohio State University
+The 2020 AFS Technologies Workshop will be held in the **Ohio Union** building
+on the Ohio State University campus, in Columbus, Ohio, USA.
 
-Ohio Union<br/>
+**Ohio Union**<br/>
 1739 North High Street<br/>
 Columbus, OH 43210<br/>
 
