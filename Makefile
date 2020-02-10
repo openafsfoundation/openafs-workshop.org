@@ -12,6 +12,9 @@ help:
 build:
 	GEM_HOME=.ruby .ruby/bin/jekyll build -d $(DESTDIR)
 
+clean:
+	git clean -f -d -x -q --exclude=.ruby --exclude=Makefile.config
+
 # Install ruby and devel packages to build native extensions.
 install_debs:
 	sudo apt-get update
