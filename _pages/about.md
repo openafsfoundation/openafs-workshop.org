@@ -37,4 +37,4 @@ policy can be found at: [https://openafs-workshop.org/about/code-of-conduct/][3]
 
 [1]:https://openafs.org/
 [2]:http://openafsfoundation.org/
-[3]:/about/code-of-conduct/
+[3]:/{{ site.baseurl }}/about/code-of-conduct/

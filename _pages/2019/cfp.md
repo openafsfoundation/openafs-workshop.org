@@ -50,7 +50,7 @@ Proposals should contain:
 * Time requirements
 
 Multiple proposals are welcome from the same individual or organization.
-Speakers should also [register](/2019/registration) for the Workshop.
+Speakers should also [register](/{{ site.baseurl }}/2019/registration) for the Workshop.
 
 Please send your proposals for consideration to
 <strong>

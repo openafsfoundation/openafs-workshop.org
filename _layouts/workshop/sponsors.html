@@ -8,12 +8,12 @@ layout: single
     <div style="text-align:center">
     {% for s in level.sponsors %}
       <p>
-        <a href="{{ s.url }}">
-          <img src="{{ page.logodir }}/{{ s.logo }}" alt="{{ s.name }}"/>
+        <a href="/{{ site.baseurl }}/{{ s.url }}">
+          <img src="/{{ site.baseurl }}/{{ page.logodir }}/{{ s.logo }}" alt="{{ s.name }}"/>
         </a>
       </p>
       <p>
-        <a href="{{ s.url }}">{{ s.url }}</a>
+        <a href="/{{ site.baseurl }}/{{ s.url }}">{{ s.url }}</a>
       </p>
       <p>{{ s.desc }}</p>
     {% endfor %}

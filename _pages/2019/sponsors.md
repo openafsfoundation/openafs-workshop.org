@@ -29,5 +29,5 @@ levels:
 
 ---
 
-Click [here](/sponsorship/) to see how to sponsor
+Click [here](/{{ site.baseurl }}/sponsorship/) to see how to sponsor
 the OpenAFS Workshop.
