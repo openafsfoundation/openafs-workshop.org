@@ -11,7 +11,7 @@ on the Ohio State University campus, in Columbus, Ohio, USA.
 1739 North High Street<br/>
 Columbus, OH 43210<br/>
 
-<img src="/assets/images/ohio-union-exterior-web-image-640x369.jpg" alt="Ohio Union"/>
+<img src="/{{ site.baseurl }}/assets/images/ohio-union-exterior-web-image-640x369.jpg" alt="Ohio Union"/>
 
 
 ## Directions and Parking

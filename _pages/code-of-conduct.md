@@ -1,7 +1,7 @@
 ---
 layout: single
-permalink: /about/code-of-conduct/
 title: "Code of Conduct"
+permalink: /code-of-conduct/
 ---
 
 The AFS Workshop is dedicated to providing a harassment-free conference

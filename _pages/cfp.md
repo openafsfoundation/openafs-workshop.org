@@ -53,13 +53,12 @@ Proposals should contain:
 * Time requirements
 
 Multiple proposals are welcome from the same individual or organization.
-Speakers should also [register](/2020/registration) for the Workshop.
+Speakers should also [register]({{ site.baseurl }}/registration/) for the Workshop.
 
 Please send your proposals for consideration to
 <strong>
-<a href="mailto:openafs.workshop@gmail.com?subject=2019%20cfp" target="_blank">
+<a href="mailto:openafs.workshop@gmail.com?subject=2020%20cfp" target="_blank">
 openafs.workshop@gmail.com
 </a>
 </strong>
 with the subject _2020 cfp_.
-

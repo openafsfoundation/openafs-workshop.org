@@ -18,4 +18,4 @@ Stay tuned for 2020 AFS Technologies Workshop sponsorship announcements.
 
 ---
 
-Click [here](/sponsorship/) to see how to sponsor the AFS Workshop.
+Click [here]({{ site.baseurl }}/sponsorship/) to see how to sponsor the AFS Workshop.

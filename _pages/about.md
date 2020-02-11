@@ -33,9 +33,8 @@ religion, or even which operating system you prefer. We do not tolerate
 harassment of conference participants in any form.  Conference participants
 violating these rules may be sanctioned or expelled from the conference without
 a refund at the discretion of the conference organizers. Please see our
-[anti-harassment policy][3].
+[anti-harassment policy]({{ site.baseurl }}/code-of-conduct/)
 
 
 [1]:https://www.openafs.org/
 [2]:https://www.openafsfoundation.org/
-[3]:/about/code-of-conduct/

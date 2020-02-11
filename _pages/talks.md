@@ -79,7 +79,5 @@ talks:
 
 ---
 
-The [Call for Presentations][1] for the 2020 AFS Technologies Workshop
+The [Call for Presentations]({{ site.baseurl }}/cfp/) for the 2020 AFS Technologies Workshop
 is open until **Febraury 15, 2020**.
-
-[1]: /cfp/
