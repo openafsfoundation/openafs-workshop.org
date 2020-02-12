@@ -6,6 +6,8 @@ main:
     url: "/registration/"
   - title: "Location"
     url: "/location/"
+  - title: "Hotels"
+    url: "/hotels/"
   #- title: "Schedule"
   #  url: "/schedule/"
   - title: "Talks"
