@@ -1,6 +1,8 @@
 ---
 layout: workshop/sponsors
 permalink: /2019/sponsors/
+redirect_to:
+    - https://workshop.openafs.org/afsbpw19/2019/sponsors/
 title: "Sponsors"
 logodir: "/assets/images/2019/sponsors"
 levels:

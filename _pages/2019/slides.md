@@ -2,6 +2,8 @@
 layout: workshop/slides
 title: "2019 Presentations"
 permalink: /2019/slides/
+redirect_to:
+    - https://workshop.openafs.org/afsbpw19/2019/slides/
 year: 2019
 slides:
   - slides: 2019-06-19-01-mmeffie-bkaduk-release-team-report.pdf

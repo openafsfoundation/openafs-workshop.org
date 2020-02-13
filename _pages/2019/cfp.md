@@ -2,6 +2,8 @@
 layout: single
 title: "Call for Presentations"
 permalink: /2019/cfp/
+redirect_to:
+    - https://workshop.openafs.org/afsbpw19/2019/cfp/
 ---
 
 We believe that all members of the AFS community have something valuable to

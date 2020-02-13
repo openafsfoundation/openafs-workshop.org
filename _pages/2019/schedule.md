@@ -2,6 +2,8 @@
 layout: workshop/schedule
 permalink: /2019/schedule/
 title: Schedule
+redirect_to:
+    - https://workshop.openafs.org/afsbpw19/2019/schedule/
 dates:
   - name: Early Bird registration ends
     date: May 28, 2019

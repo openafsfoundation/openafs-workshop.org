@@ -2,6 +2,8 @@
 layout: single
 permalink: /2019/location/
 title: "Location"
+redirect_to:
+    - https://workshop.openafs.org/afsbpw19/2019/location/
 ---
 
 
