@@ -4,8 +4,10 @@ layout: single
 
 {{ content }}
 
-{% for t in page.talks %}
+{% for t in site.data.program.talks %}
+  {% if t.title != "TBD" %}
 <h2>{{ t.title }}</h2>
+<p>Presenter: {{ t.presenters }}{% if t.org %} - {{ t.org }} {% endif %}</p>
 <p>{{ t.desc }}</p>
-<p>Presented by: {{ t.presenter }}</p>
+  {% endif %}
 {% endfor %}
