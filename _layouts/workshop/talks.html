@@ -5,8 +5,8 @@ layout: single
 {{ content }}
 
 {% for t in site.data.program.talks %}
-  {% if t.title != "TBD" %}
-<h2>{{ t.title }}</h2>
+  {% if t.desc %}
+<h2 id="{{ t.title | slugify }}">{{ t.title }}</h2>
 <p>Presenter: {{ t.presenters }}{% if t.org %} - {{ t.org }} {% endif %}</p>
 <p>{{ t.desc }}</p>
   {% endif %}

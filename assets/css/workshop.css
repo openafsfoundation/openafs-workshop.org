@@ -1,0 +1,37 @@
+/*
+ * Color palette:
+ * https://www.color-hex.com/color-palette/88431
+ */
+.schedule.development         { background-color: #a8d3ab; }
+.schedule.project_report      { background-color: #84c5cb; }
+.schedule.proposal            { background-color: #ac6e81; }
+.schedule.security            { background-color: #f59f7e; }
+.schedule.site_report         { background-color: #e2aa35; }
+.schedule.storage             { background-color: #f76d87; }
+.schedule.troubleshooting     { background-color: #bb8fce; }
+
+table.schedule {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+tr.schedule, td.schedule {
+  vertical-align: top;
+  background-color: white;
+}
+
+td.schedule {
+  border-top: 1px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b;
+  border-left: 1px solid #9b9b9b;
+  border-right: 1px solid #9b9b9b;
+}
+
+a.schedule {
+  text-decoration: none;
+  color: black;
+}
+
+a.schedule:visited {
+  color: black;
+}

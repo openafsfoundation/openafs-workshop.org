@@ -1,11 +1,61 @@
 ---
+breaks:
+  - title: Lunch
+    date: 2020-06-15
+    time: "12:00"
+    len: 60
+  - title: Lunch
+    date: 2020-06-16
+    time: "12:00"
+    len: 60
+  - title: Lunch
+    date: 2020-06-17
+    time: "12:00"
+    len: 60
+  - title: Break
+    date: 2020-06-15
+    time: "10:15"
+    len: 30
+  - title: Break
+    date: 2020-06-15
+    time: "14:30"
+    len: 30
+  - title: Break
+    date: 2020-06-16
+    time: "10:00"
+    len: 30
+  - title: Break
+    date: 2020-06-16
+    time: "14:15"
+    len: 45
+  - title: Break
+    date: 2020-06-17
+    time: "10:00"
+    len: 30
+
+tracks:
+  # Listed in order for the legend.
+  - "project report"
+  - "storage"
+  - "troubleshooting"
+  - "development"
+  - "site report"
+  - "security"
+  - "proposal"
+
 talks:
+  - title: Welcome
+    date: 2020-06-15
+    time: "08:30"
+    len: 15
+    track: workshop
+
   - title: OpenAFS Release Team Report
     presenters: Benjamin Kaduk
     org: OpenAFS Guardian
-    cat: status
-    day: mon
-    time: 8:45
+    track: project report
+    date: 2020-06-15
+    time: "08:45"
     len: 30
     desc: >
       This is an update from OpenAFS release team to the
@@ -19,9 +69,9 @@ talks:
   - title: AuriStor File System Status Report
     presenters: Jeffrey Altman
     org: AuriStor CEO
-    cat: status
-    day: mon
-    time: 9:15
+    track: project report
+    date: 2020-06-15
+    time: "09:15"
     len: 15
     desc: >
       An update on major updates to the AuriStor File System in
@@ -32,9 +82,9 @@ talks:
   - title: Heimdal Kerberos Status Report
     presenters: Jeffrey Altman
     org: AuriStor CEO and Heimdal Project Owner
-    cat: status
-    day: mon
-    time: 9:30
+    track: project report
+    date: 2020-06-15
+    time: "09:30"
     len: 15
     desc: >
       An update on Heimdal Kerberos including recent security
@@ -47,9 +97,9 @@ talks:
   - title: "Linux: kafs, where are you now?"
     presenters: David Howells
     org: RedHat
-    cat: status
-    day: mon
-    time: 9:45
+    track: project report
+    date: 2020-06-15
+    time: "09:45"
     len: 30
     desc: >
       Linux kernel afs (kafs) and AF_RXRPC have inspired the
@@ -64,9 +114,9 @@ talks:
   - title: AuriStorFS for Microsoft Windows
     presenters: Jeffrey Altman
     org: AuriStor
-    cat: status
-    day: mon
-    time: 10:45
+    track: project report
+    date: 2020-06-15
+    time: "10:45"
     len: 30
     desc: >
       The last version of OpenAFS for Windows, 1.7.33, was
@@ -78,9 +128,9 @@ talks:
   - title: "OpenAFS client on macOS: past, present, and future"
     presenters: Marcio Barbosa
     org: Sine Nomine Associates
-    cat: status
-    day: mon
-    time: 11:15
+    track: project report
+    date: 2020-06-15
+    time: "11:15"
     len: 30
     desc: >
       As part of Apple's ongoing effort to modernize macOS,
@@ -91,11 +141,11 @@ talks:
       changes have been made, and what to expect in the future.
 
   - title: OpenAFS Foundation Report
-    presenters: E. Margarete Ziemer
+    presenters: E. Margarete Ziemer, Todd DeSantis, Dave Botsch
     org: OpenAFS Foundation
-    cat: status
-    day: mon
-    time: 11:45
+    track: project report
+    date: 2020-06-15
+    time: "11:45"
     len: 15
     desc: >
       An update on the OpenAFS Foundation.
@@ -103,9 +153,9 @@ talks:
   - title: Tiered secondary storage architecture and performance
     presenters: John N. Riley III
     org: Teradactyl LLC. CEO
-    cat: storage
-    day: mon
-    time: 13:00
+    track: storage
+    date: 2020-06-15
+    time: "13:00"
     len: 30
     desc: >
       How building secondary storage architecture and choosing the
@@ -122,9 +172,9 @@ talks:
   - title: Interoperability of AFS and AuriStor with Backup and Restore
     presenters: Kristen J. Webb
     org: Teradactyl LLC. CFO
-    cat: storage
-    day: mon
-    time: 13:30
+    track: storage
+    date: 2020-06-15
+    time: "13:30"
     len: 30
     desc: >
       OpenAFS and AuriStor continue to develop and introduce new
@@ -137,12 +187,12 @@ talks:
       or deploying both technologies to ensure organizational data
       integrity and business continuity.
 
-  - title: OpenAFS as Persistent Storage using Container Storage Interface (CSI) plugin and Testing framework for CSI plugin.
+  - title: OpenAFS as Persistent Storage using Container Storage Interface (CSI) plugin and Testing framework for CSI plugin
     presenters: Pravin Junnarkar, Todd DeSantis, Yadavendra Yadav
     org: IBM
-    cat: storage
-    day: mon
-    time: 14:00
+    track: storage
+    date: 2020-06-15
+    time: "14:00"
     len: 30
     desc: >
       This talk is in continuation of last year's talk on OpenAFS
@@ -171,9 +221,9 @@ talks:
   - title: NIST 800-171 considerations for storage
     presenters: John N. Riley III
     org: Teradactyl LLC. CEO
-    cat: storage
-    day: mon
-    time: 15:00
+    track: storage
+    date: 2020-06-15
+    time: "15:00"
     len: 30
     desc: >
       Organizations deploying AFS technologies may soon have
@@ -193,9 +243,9 @@ talks:
   - title: OpenAFS diagnostic tools
     presenters: Mark Vitale
     org: Sine Nomine Associates
-    cat: trouble
-    day: tue
-    time: 8:30
+    track: troubleshooting
+    date: 2020-06-16
+    time: "08:30"
     len: 30
     desc: >
       This talk will provide an overview of the many in-tree
@@ -210,9 +260,9 @@ talks:
   - title: Handling DAFS volume packages dynamically through fssync-debug
     presenters: Ganesh G Chaudhari, Kailas Zadbuke, Todd DeSantis
     org: IBM
-    cat: trouble
-    day: tue
-    time: 9:00
+    track: troubleshooting
+    date: 2020-06-16
+    time: "09:00"
     len: 30
     desc: >
       The fssync-debug is a command suite that allows low-level
@@ -235,9 +285,9 @@ talks:
   - title: PAGs... Unthrottled
     presenters: Michael Meffie
     org: Sine Nomine Associates
-    cat: trouble
-    day: tue
-    time: 9:30
+    track: troubleshooting
+    date: 2020-06-16
+    time: "09:30"
     len: 30
     desc: >
       What are Process Authentication Groups (PAGs), and why does
@@ -251,9 +301,9 @@ talks:
   - title: Wireshark and AFS
     presenters: Mark Vitale
     org: Sine Nomine Associates
-    cat: trouble
-    day: tue
-    time: 11:00
+    track: troubleshooting
+    date: 2020-06-16
+    time: "11:00"
     len: 60
     desc: >
       Wireshark is a popular open-source utility for network
@@ -272,9 +322,9 @@ talks:
   - title: OpenAFS Unix VFS Integration
     presenters: Andrew Deason
     org: Andrew Deason
-    cat: dev
-    day: tue
-    time: 13:00
+    track: development
+    date: 2020-06-16
+    time: "13:00"
     len: 45
     desc: >
       How the OpenAFS client integrates with the kernel for each
@@ -290,9 +340,9 @@ talks:
   - title: Using Virtualization to debug the OpenAFS Linux kernel module
     presenters: Cheyenne Wills
     org: Sine Nomine Associates
-    cat: dev
-    day: tue
-    time: 13:45
+    track: development
+    date: 2020-06-16
+    time: "13:45"
     len: 30
     desc: >
       Several of the Linux virtualization engines provide
@@ -308,9 +358,9 @@ talks:
   - title: Kata lightweight VMs for OpenAFS scalability testing.
     presenters: Pravin Junnarkar, Yadavendra Yadav, Kailas Zadbuke, Todd DeSantis
     org: IBM
-    cat: dev
-    day: tue
-    time: 14:45
+    track: development
+    date: 2020-06-16
+    time: "15:00"
     len: 30
     desc: >
       The traditional performance/scalability testing with the
@@ -333,9 +383,9 @@ talks:
   - title: Keeping up with the Linux Kernel
     presenters: Marc Dionne
     org: AuriStor
-    cat: dev
-    day: tue
-    time: 15:15
+    track: development
+    date: 2020-06-16
+    time: "15:30"
     len: 30
     desc: >
       This talk is an update to the 2015 talk by the same name
@@ -346,21 +396,18 @@ talks:
       modules on supported Linux distributions.
 
   - title: TBD
-    presenters: TBD
     org: TBD
-    cat: site
-    day: wed
-    time: 8:30
-    len: 60
-    desc: >
-      To be announced.
+    track: site report
+    date: 2020-06-17
+    time: "08:30"
+    len: 45
 
   - title: Personal Privacy in Globally Accessible File Systems
     presenters: TBD
     org: AuriStor
-    cat: howto
-    day: wed
-    time: 9:30
+    track: security
+    date: 2020-06-17
+    time: "09:15"
     len: 30
     desc: >
       Recent laws such as Europe's General Data Protection
@@ -376,9 +423,9 @@ talks:
   - title: Complying with Key Rotation Policies using AuriStorFS
     presenters: TBD
     org: AuriStor
-    cat: howto
-    day: wed
-    time: 10:00
+    track: security
+    date: 2020-06-17
+    time: "10:00"
     len: 15
     desc: >
       Many organizations are required to perform key rotation for
@@ -395,9 +442,9 @@ talks:
   - title: OpenAFS Cache Manager tracing using extended Berkeley Packet Filter (eBPF)
     presenters: Yadavendra Yadav, Todd DeSantis
     org: IBM
-    cat: dev
-    day: wed
-    time: 10:30
+    track: troubleshooting
+    date: 2020-06-16
+    time: "10:30"
     len: 30
     desc: >
       For debugging Linux Kernel issues in OpenAFS we use dynamic
@@ -422,9 +469,9 @@ talks:
   - title: VLDB version 5
     presenters: Andrew Deason
     org: Sine Nomine Associates
-    cat: future
-    day: wed
-    time: 10:45
+    track: proposal
+    date: 2020-06-17
+    time: "10:30"
     len: 45
     desc: >
       The current VLDB on-disk format, version 4, has long been
@@ -437,9 +484,9 @@ talks:
   - title: Proposed RX Extensions
     presenters: TBD
     org: AuriStor
-    cat: future
-    day: wed
-    time: 11:30
+    track: proposal
+    date: 2020-06-17
+    time: "11:15"
     len: 30
     desc: >
       AuriStor RX and Linux RX_RPC have pushed the RX protocol to
