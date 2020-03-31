@@ -1,21 +1,9 @@
 ---
-layout: workshop/sponsors
+layout: single
 permalink: /sponsors/
 title: "Sponsors"
 logodir: "/assets/images/sponsors"
-levels:
-  - name: Platinum
-    sponsors:
-  - name: Gold
-    sponsors:
-  - name: Silver
-    sponsors:
-  - name: Bronze
-    sponsors:
 ---
 
-Stay tuned for 2020 AFS Technologies Workshop sponsorship announcements.
-
----
-
-Click [here]({{ site.baseurl }}/sponsorship/) to see how to sponsor the AFS Workshop.
+The 2020 AFS Technologies Workshop has been cancelled due to the COVID-19
+pandemic. We hope be back in 2021.

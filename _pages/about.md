@@ -4,6 +4,9 @@ permalink: /about/
 title: "About"
 ---
 
+The 2020 AFS Technologies Workshop has been cancelled due to the COVID-19
+pandemic. We hope be back in 2021.
+
 ## About the AFS Technologies Workshop
 
 The AFS Technologies Workshop is a conference for users, administrators, and

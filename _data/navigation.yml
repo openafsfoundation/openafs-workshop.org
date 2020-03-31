@@ -1,18 +1,3 @@
-# main links
 main:
   - title: "About"
     url: "/about/"
-  - title: "Registration"
-    url: "/registration/"
-  - title: "Location"
-    url: "/location/"
-  - title: "Hotels"
-    url: "/hotels/"
-  - title: "Schedule"
-    url: "/schedule/"
-  - title: "Talks"
-    url: "/talks/"
-  #- title: "Speak"
-  #  url: "/cfp/"
-  - title: "Sponsors"
-    url: "/sponsors/"
