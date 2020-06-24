@@ -6,7 +6,7 @@ title: "Location"
 
 <img src="{{ site.baseurl }}/assets/images/ohio-union-exterior-web-image-640x369.jpg" alt="Ohio Union"/>
 
-The 2020 AFS Technologies Workshop will be held in the **[Ohio Union][1]** building
+The 2021 AFS Technologies Workshop will be held in the **[Ohio Union][1]** building
 on the Ohio State University campus, in Columbus, Ohio, USA.
 
 **[Ohio Union][1]**<br/>

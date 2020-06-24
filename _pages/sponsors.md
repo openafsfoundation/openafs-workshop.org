@@ -14,7 +14,7 @@ levels:
     sponsors:
 ---
 
-Stay tuned for 2020 AFS Technologies Workshop sponsorship announcements.
+Stay tuned for 2021 AFS Technologies Workshop sponsorship announcements.
 
 ---
 

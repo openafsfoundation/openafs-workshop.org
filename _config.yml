@@ -18,12 +18,12 @@ minimal_mistakes_skin    : "air"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "2020 AFS Technologies Workshop"
+title                    : "2021 AFS Technologies Workshop"
 title_separator          : "-"
 name                     : "OpenAFS Foundation"
-description              : "A workshop for AFS operators and developers, Columbus, June 15-17, 2020."
+description              : "A workshop for AFS operators and developers, Columbus, June 14-16, 2021."
 url                      : "https://workshop.openafs.org"
-baseurl                  : "/afsbpw20" # the site subpath for grand.central.org
+baseurl                  : "/afsbpw21" # the site subpath for grand.central.org
 repository               : "openafsfoundation/openafs-workshop.org"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
