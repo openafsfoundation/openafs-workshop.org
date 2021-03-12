@@ -2,12 +2,10 @@
 
 include Makefile.config
 
-all: build
-
 help:
-	@echo "make [build] [DESTDIR=<path-to-site>]"
-	@echo "make install_debs   -- install ruby on debian/ubuntu"
-	@echo "make install_gems   -- install jekyll and gems"
+	@echo "make build [DESTDIR=<path-to-site>]"
+	@echo "make install_debs   install ruby on debian/ubuntu"
+	@echo "make install        install jekyll and gems"
 
 build:
 	GEM_HOME=.ruby .ruby/bin/jekyll build -d $(DESTDIR)
@@ -21,7 +19,7 @@ install_debs:
 	sudo apt-get install build-essential autoconf zlib1g-dev ruby ruby-dev
 
 # Install jekyll and ruby gems required by this theme.
-install_gems:
+install:
 	mkdir -p .ruby
 	GEM_HOME=.ruby/ gem install bundler
 	GEM_HOME=.ruby/ .ruby/bin/bundle install
