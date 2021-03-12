@@ -4,7 +4,7 @@ title: "Call for Presentations"
 permalink: /cfp/
 ---
 
-Call for Talks and Activities - May 1 Deadline
+**Deadline: May 5, 2021**
 
 The 2021 AFS Technologies Workshop is a community based effort to promote the
 stability and growth of the AFS distributed file system and related
@@ -46,7 +46,7 @@ would love to hear more!
 
 ## Submission Guidelines
 
-Deadline for submission: **May 1, 2021**
+Deadline for submission: **May 5, 2021**
 
 Proposals should contain:
 
