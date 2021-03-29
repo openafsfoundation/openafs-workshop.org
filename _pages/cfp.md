@@ -18,6 +18,8 @@ share with others.  We invite you to submit a session proposal to share your
 experience with colleagues in the AFS community.  Sessions types at the
 workshop include presentations, panels, tutorials, and roundtable discussions.
 
+The workshop registration fee will be refunded for speakers.
+
 ## Why Present
 
 * **Friendly Audiences**
