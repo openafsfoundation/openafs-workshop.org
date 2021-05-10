@@ -4,60 +4,21 @@ layout: single
 
 {{ content }}
 
-{% assign events = site.data.program.talks | concat: site.data.program.breaks %}
-{% assign dates = events | map: "date" | sort | uniq %}
-<table>
-{% for date in dates %}
-  <tr><td colspan="3"><h3>{{ date | date: "%A, %B %d, %Y" }}</h3></td></tr>
-  {% assign day_events = events | where: "date", date | sort: "time" %}
-  {% comment %}<table class="schedule">{% endcomment %}
-  {% for event in day_events %}
-
-    {% if event.desc %}
-      {% assign link = event.title | slugify | prepend: "/talks/#" | relative_url %}
+{% for day in page.schedule %}
+  <h3>{{ day.day }}</h3>
+  <table class="schedule">
+  {% for slot in day.slots %}
+    {% assign time = slot[0] | replace: " ", "&nbsp;" %}
+    {% assign title = slot[1] %}
+    <tr>
+      <td>{{ time }}</td>
+    {% if title == "Welcome" or title == "Break" or title == "Farewell" or title contains "TBD" %}
+      <td>{{ title }}</td>
     {% else %}
-      {% assign link = false %}
+      {% assign link = title | slugify | prepend: "/talks/" | append: "/" | relative_url %}
+      <td><a class="schedule" href="{{ link }}">{{ title }}</a></td>
     {% endif %}
-
-    {% assign class = event.track | replace: " ", "_" %}
-    {% assign height = event.len | times: 2 %}
-    {% if height %}
-        {% assign style = "height: " | append: height | append: 'px' %}
-    {% endif %}
-
-    {% comment %}
-    Note: styles are in assets/css/workshop.css
-    {% endcomment %}
-    <tr class="schedule" style="{{ style }}">
-      <td class="schedule">{{ event.time }}</td>
-      {% if event.presenters %}
-      <td class="schedule {{ class }}">
-      {% else %}
-      <td class="schedule {{ class }}" colspan="2">
-      {% endif %}
-        {% if link %}
-          <a class="schedule" href="{{ link }}">{{ event.title }}</a>
-        {% else %}
-          {{ event.title }}
-        {% endif %}
-      </td>
-      {% if event.presenters %}
-      <td class="schedule {{ class }}">{{ event.presenters }}</td>
-      {% endif %}
     </tr>
   {% endfor %}
-  {% comment %}</table>{% endcomment %}
+  </table>
 {% endfor %}
-</table>
-
-<h3>Legend</h3>
-<table class="schedule">
-{% for track in site.data.program.tracks %}
-  {% if track != "workshop" %}
-    {% assign class = track | replace: " ", "_" %}
-    <tr class="schedule">
-      <td class="schedule {{ class }}">{{ track }}</td>
-    </tr>
-  {% endif %}
-{% endfor %}
-</table>

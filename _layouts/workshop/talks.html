@@ -4,10 +4,10 @@ layout: single
 
 {{ content }}
 
-{% for t in site.data.program.talks %}
-  {% if t.desc %}
-<h2 id="{{ t.title | slugify }}">{{ t.title }}</h2>
-<p>Presenter: {{ t.presenters }}{% if t.org %} - {{ t.org }} {% endif %}</p>
-<p>{{ t.desc }}</p>
-  {% endif %}
+{% comment %}
+Note: styles are in assets/css/workshop.css
+{% endcomment %}
+
+{% for talk in page.talks %}
+<p><a class="schedule" href="{{ talk.title | slugify | prepend: '/talks/' | append: '/' | relative_url }}">{{ talk.title }}</a></p>
 {% endfor %}

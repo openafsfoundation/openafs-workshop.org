@@ -1,0 +1,32 @@
+---
+layout: single
+---
+
+<hr/>
+{% if page.presenters %}
+{% if page.presenters.size == 1 %}
+<strong>Presenter:</strong>
+{% elsif page.presenters.size > 1 %}
+<strong>Presenters:</strong>
+{% endif %}
+<ul>
+{% for p in page.presenters %}
+<li>{{ p.name }}{% if p.org %}, {{ p.org }}{% endif %}</li>
+{% endfor %}
+</ul>
+{% elsif page.moderators %}
+{% if page.moderators.size == 1 %}
+<strong>Moderator:</strong>
+{% elsif page.moderators.size > 1 %}
+<strong>Moderators:</strong>
+{% endif %}
+<ul>
+{% for m in page.moderators %}
+<li>{{ m.name }}{% if m.org %}, {{ m.org }}{% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+<strong>Abstract:</strong>
+
+{{ content }}

@@ -308,3 +308,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
+collections:
+  talks:
+    collections_dir: _pages/talks
