@@ -197,6 +197,8 @@ exclude:
   - "_pages/2019/*"  # old pages
   - "assets/2019/*"  # old files
   - "assets/images/2019/*"  # old images
+  # Take down the cfp.
+  - _pages/cfp.md
 keep_files:
   - .git
   - .svn
