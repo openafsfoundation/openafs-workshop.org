@@ -10,12 +10,16 @@ layout: single
   {% for slot in day.slots %}
     {% assign time = slot[0] | replace: " ", "&nbsp;" %}
     {% assign title = slot[1] %}
+    {% assign status = slot[2] %}
+    {% assign link = title | slugify | prepend: "/talks/" | append: "/" | relative_url %}
+    {% if status contains "tentative" %}
+       {% assign title = title | prepend: "<strong>(Tentative)</strong> "%}
+    {% endif %}
     <tr>
       <td>{{ time }}</td>
-    {% if title == "Welcome" or title == "Break" or title == "Farewell" or title contains "TBD" %}
+    {% if status contains "nodesc" %}
       <td>{{ title }}</td>
     {% else %}
-      {% assign link = title | slugify | prepend: "/talks/" | append: "/" | relative_url %}
       <td><a class="schedule" href="{{ link }}">{{ title }}</a></td>
     {% endif %}
     </tr>
