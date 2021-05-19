@@ -7,8 +7,6 @@ talks:
   - title: Auditing AFS at Morgan Stanley – past, present and future
   - title: AuriStor File System Status Report
   - title: AuriStor File System Ubik Services at Scale
-  - title: BOF - A response to "Future of User Storage at CERN"
-  - title: BOF - Containerization, Software Deployment, Persistent Storage and AFS
   - title: Handling DAFS volume packages dynamically through fssync-debug
   - title: Jprobe Alternative
   - title: Juggling Bottlenecks

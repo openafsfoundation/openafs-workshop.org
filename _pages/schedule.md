@@ -13,7 +13,8 @@ schedule:
       - ["12:30 - 13:15", "Site Report - AFS at the Instituto Superior Técnico", ""]
       - ["13:15 - 13:45", "Site Report - Morgan Stanley", ""]
       - ["13:45 - 14:30", "Juggling Bottlenecks", ""]
-      - ["14:30",         "BOF - State of AFS", "nodesc"]
+      - ["14:30 - 14:45", "Break", "nodesc"]
+      - ["14:45 - 16:00", "BOF", "nodesc,tentative"]
   - day: Tuesday, June 15, 2021
     slots:
       - ["10:00 - 10:15", "OpenAFS Foundation Report", ""]
@@ -26,7 +27,8 @@ schedule:
       - ["13:00 - 13:30", "OpenAFS Cache Manager tracing using eBPF", ""]
       - ["13:30 - 14:00", "Handling DAFS volume packages dynamically through fssync-debug", ""]
       - ["14:00 - 14:30", "OpenAFS client for macOS", ""]
-      - ["14:30",         'BOF - A response to "Future of User Storage at CERN"', "tentative"]
+      - ["14:30 - 14:45", "Break", "nodesc"]
+      - ["14:45 - 16:00", "BOF", "tentative,nodesc"]
   - day: Wednesday, June 16, 2021
     slots:
       - ["10:00 - 10:30", "Wireshark and AFS3", ""]
@@ -38,8 +40,9 @@ schedule:
       - ["13:00 - 13:30", "Kata lightweight VMs for OpenAFS scalability testing", ""]
       - ["13:30 - 13:50", "Auditing AFS at Morgan Stanley - past, present and future", ""]
       - ["13:50 - 14:20", "AFS and Modern Compute", ""]
-      - ["14:20 - 14:40", "Farewell", "nodesc"]
-      - ["14:30",         "BOF - Containerization, Software Deployment, Persistent Storage and AFS", "tentative"]
+      - ["14:20 - 14:30", "Farewell", "nodesc"]
+      - ["14:30 - 14:45", "Break", "nodesc"]
+      - ["14:45 - 16:00", "BOF", "tentative,nodesc"]
 ---
 
 All times are Eastern Daylight (UTC -4).
