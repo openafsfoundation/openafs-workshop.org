@@ -6,6 +6,8 @@ slug: openafs-client-for-macos
 presenters:
   - name: Marcio Barbosa
     org: Sine Nomine Associates
+slides:
+  - OpenAFS_client_for_macOS.pdf
 ---
 
 As part of Apple's ongoing effort to modernize macOS, improve security and

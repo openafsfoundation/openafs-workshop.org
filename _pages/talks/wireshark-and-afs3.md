@@ -6,6 +6,8 @@ slug: wireshark-and-afs3
 presenters:
   - name: Mark Vitale
     org: Sine Nomine Associates
+slides:
+  - Wireshark_and_AFS.pdf
 ---
 
 Wireshark is a popular open-source utility for network packet capture and

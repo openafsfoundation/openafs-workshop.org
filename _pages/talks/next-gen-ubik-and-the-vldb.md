@@ -6,6 +6,8 @@ slug: next-gen-ubik-and-the-vldb
 presenters:
   - name: Andrew Deason
     org: Sine Nomine Associates
+slides:
+  - adeason-ubikkv.pdf
 ---
 
 Like all ubik databases in Openafs, the VLDB currently uses a custom on-disk

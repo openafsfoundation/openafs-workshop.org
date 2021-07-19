@@ -6,6 +6,8 @@ slug: pags-unthrottled
 presenters:
   - name: Andrew Deason
     org: Sine Nomine Associates
+slides:
+  - adeason-pags.pdf
 ---
 
 What are Process Authentication Groups (PAGs), and why does the OpenAFS Unix

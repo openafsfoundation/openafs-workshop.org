@@ -6,6 +6,8 @@ slug: openafs-diagnostic-tools
 presenters:
   - name: Mark Vitale
     org: Sine Nomine Associates
+slides:
+  - OpenAFS_Diagnostic_Tools.pdf
 ---
 
 This talk will provide an overview of the many in-tree OpenAFS diagnostic

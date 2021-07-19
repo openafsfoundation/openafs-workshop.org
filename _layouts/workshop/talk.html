@@ -26,7 +26,17 @@ layout: single
 {% endfor %}
 </ul>
 {% endif %}
+{% if page.slides %}
+<strong>Slides:</strong>
+<ul>
+{% for s in page.slides %}
+<li><a href="{{ site.baseurl }}/slides/{{ s }}">{{ s }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+
 
 <strong>Abstract:</strong>
 
 {{ content }}
+
