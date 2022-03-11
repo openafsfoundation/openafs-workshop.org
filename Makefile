@@ -8,10 +8,19 @@ help:
 	@echo "make install        install jekyll and gems"
 
 build:
-	GEM_HOME=.ruby .ruby/bin/jekyll build -d $(DESTDIR)
+	GEM_HOME=.ruby .ruby/bin/bundle exec .ruby/bin/jekyll build -d $(DESTDIR)
 
 clean:
-	git clean -f -d -x -q --exclude=.ruby --exclude=Makefile.config
+	git clean -f -d -x -q \
+	  --exclude=.ruby/ \
+	  --exclude=vendor/ \
+	  --exclude=Gemfile.lock \
+	  --exclude=Makefile.config
+
+distclean: clean
+	rm -rf .ruby/
+	rm -rf vendor/
+	rm -rf Gemfile.lock
 
 # Install ruby and devel packages to build native extensions.
 install_debs:
@@ -21,7 +30,7 @@ install_debs:
 # Install jekyll and ruby gems required by this theme.
 install:
 	mkdir -p .ruby
-	GEM_HOME=.ruby/ gem install bundler
+	GEM_HOME=.ruby/ gem install jekyll bundler
 	GEM_HOME=.ruby/ .ruby/bin/bundle install
 
 Makefile.config:
