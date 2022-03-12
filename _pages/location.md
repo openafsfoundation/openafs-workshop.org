@@ -4,7 +4,7 @@ permalink: /location/
 title: "Location"
 ---
 
-The (year) AFS Technologies Workshop will be a **Virtual Conference**.
+The 2022 AFS Technologies Workshop will be a **Virtual Conference**
+on June 14-16, 2022.
 
-Attendees will be able to participate via video conferencing. Details
-to be announced.
+Registered attendees will be able to participate via Zoom video conferencing.

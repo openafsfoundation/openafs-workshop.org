@@ -4,12 +4,9 @@ permalink: /cfp/
 title: "Call for Presentations"
 ---
 
-The YEAR AFS Technologies Workshop is a community based effort to promote the
+The 2022 AFS Technologies Workshop is a community based effort to promote the
 stability and growth of the AFS distributed file system and related
 technologies.
-
-The workshop will be three half day workshops from 10:00am to 2:30pm Eastern
-time DATE, held virtually.
 
 We believe that all members of the AFS community have something valuable to
 share with others.  We invite you to submit a session proposal to share your

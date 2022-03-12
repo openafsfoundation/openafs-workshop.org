@@ -64,7 +64,6 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
-  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .page__content {
@@ -158,6 +157,8 @@
       @include breakpoint($x-large) {
         max-width: $x-large;
       }
+      /* Make the text in front of the image more readable. */
+      background-color: rgba(0, 0, 0, 0.5)
     }
 
     .page__title,
