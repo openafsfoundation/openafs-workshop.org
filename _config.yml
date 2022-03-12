@@ -21,13 +21,13 @@ locale                   : "en-US"
 title                    : "AFS Technologies Workshop"
 title_separator          : "-"
 name                     : "OpenAFS Foundation"
-description              : "A workshop for AFS operators and developers, Columbus, June 14-16, 2021."
+description              : "A workshop for AFS operators and developers, (DATE)."
 url                      : "https://workshop.openafs.org"
-baseurl                  : "/afsbpw21" # the site subpath for grand.central.org
+baseurl                  : "/afsbpwYY" # the site subpath for grand.central.org
 repository               : "openafsfoundation/openafs-workshop.org"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "2021 AFS Technologies Workshop"
+masthead_title           : "(YEAR) AFS Technologies Workshop"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -194,11 +194,6 @@ exclude:
   - Makefile.config
   - .ruby
   - jekyll.yaml
-  - "_pages/2019/*"  # old pages
-  - "assets/2019/*"  # old files
-  - "assets/images/2019/*"  # old images
-  # Take down the cfp.
-  - _pages/cfp.md
 keep_files:
   - .git
   - .svn

@@ -1,17 +1,15 @@
 ---
 layout: single
-title: "Call for Presentations"
 permalink: /cfp/
+title: "Call for Presentations"
 ---
 
-**Deadline: May 5, 2021**
-
-The 2021 AFS Technologies Workshop is a community based effort to promote the
+The YEAR AFS Technologies Workshop is a community based effort to promote the
 stability and growth of the AFS distributed file system and related
 technologies.
 
 The workshop will be three half day workshops from 10:00am to 2:30pm Eastern
-time June 14-16, 2021, held virtually.
+time DATE, held virtually.
 
 We believe that all members of the AFS community have something valuable to
 share with others.  We invite you to submit a session proposal to share your
@@ -48,7 +46,7 @@ would love to hear more!
 
 ## Submission Guidelines
 
-Deadline for submission: **May 5, 2021**
+Deadline for submission: **DATE**
 
 Proposals should contain:
 
@@ -62,9 +60,8 @@ Multiple proposals are welcome from the same individual or organization.
 
 Please send your proposals for consideration to
 <strong>
-<a href="mailto:openafs.workshop@gmail.com?subject=2021%20cfp" target="_blank">
+<a href="mailto:openafs.workshop@gmail.com?subject=cfp" target="_blank">
 openafs.workshop@gmail.com
 </a>
 </strong>
-with the subject _2021 cfp_.
-
+with the subject _cfp_.
