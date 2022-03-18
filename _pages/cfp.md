@@ -15,13 +15,6 @@ workshop include presentations, panels, tutorials, and roundtable discussions.
 
 The workshop registration fee will be refunded for speakers.
 
-## Why Present
-
-* **Friendly Audiences**
-* **Rewarding Experience**
-* **Share Your Knowledge**
-* **Contribute to the Community**
-
 ## Topics of Interest
 
 Any topic generally related to AFS technologies will be considered. Areas of
@@ -42,8 +35,6 @@ Have you done some performance tuning, benchmarking, or automated testing?  We
 would love to hear more!
 
 ## Submission Guidelines
-
-Deadline for submission: **DATE**
 
 Proposals should contain:
 
