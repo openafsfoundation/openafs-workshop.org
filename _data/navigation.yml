@@ -2,8 +2,8 @@
 main:
   - title: "About"
     url: "/about/"
-  #- title: "Registration"
-  #  url: "/registration/"
+  - title: "Registration"
+    url: "/registration/"
   - title: "Location"
     url: "/location/"
   #- title: "Schedule"

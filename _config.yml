@@ -196,7 +196,6 @@ exclude:
   - jekyll.yaml
   # Unpublished pages.
   - _pages/cfp.md
-  - _pages/registration.md
   - _pages/schedule.md
   - _pages/talks*
 keep_files:
