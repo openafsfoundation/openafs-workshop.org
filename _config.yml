@@ -195,8 +195,6 @@ exclude:
   - .ruby
   - jekyll.yaml
   # Unpublished pages.
-  - _pages/schedule.md
-  - _pages/talks*
 keep_files:
   - .git
   - .svn
