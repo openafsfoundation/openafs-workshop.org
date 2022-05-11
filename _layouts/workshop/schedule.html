@@ -12,6 +12,7 @@ layout: single
     {% assign title = slot[1] %}
     {% assign status = slot[2] %}
     {% assign link = title | slugify | prepend: "/talks/" | append: "/" | relative_url %}
+    {% assign icon = '/assets/images/icon-link.png' | relative_url %}
     {% if status contains "tentative" %}
        {% assign title = title | prepend: "<strong>(Tentative)</strong> "%}
     {% endif %}
@@ -20,7 +21,7 @@ layout: single
     {% if status contains "nodesc" %}
       <td>{{ title }}</td>
     {% else %}
-      <td><a class="schedule" href="{{ link }}">{{ title }}</a></td>
+      <td><a class="schedule" href="{{ link }}">{{ title }} <i class="fa-solid fa-external-link fs-xs"></i></a></td>
     {% endif %}
     </tr>
   {% endfor %}

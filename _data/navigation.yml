@@ -8,8 +8,6 @@ main:
     url: "/location/"
   - title: "Schedule"
     url: "/schedule/"
-  - title: "Talks"
-    url: "/talks/"
   - title: "Speak"
     url: "/cfp/"
   - title: "Sponsors"
