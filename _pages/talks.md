@@ -11,7 +11,7 @@ talks:
   - title: CERN Site Report
   - title: Dynamic tracing and analysis of OpenAFS kernel module using Perf tool
   - title: FABS - The Flexible AFS Backup System
-  # - title: Features I'd like to see in AFS
+  - title: Features I'd like to see in Linux kAFS
   - title: Goldman Sachs Site Report
   - title: Introducing the RX Extended SACK Protocol - Details and Implementation Experience
   - title: Lifting and OpenShifting

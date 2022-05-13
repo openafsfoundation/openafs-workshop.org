@@ -13,7 +13,7 @@ schedule:
       - ["12:00 - 12:30", "OpenAFS Foundation Report", ""]
       - ["12:30 - 13:00", "Lunch", "nodesc"]
       - ["13:00 - 13:30", "OpenAFS CSI Plugin updates", ""]
-      - ["13:30 - 14:00", "kAFS Update ??", ""]
+      - ["13:30 - 14:00", "Features I'd like to see in Linux kAFS", ""]
       - ["14:00 - 14:20", "OpenAFS macOS client status report", ""]
       - ["14:20 - 14:45", "Break", "nodesc"]
       - ["14:45 - 16:00", "BOF", "nodesc"]
