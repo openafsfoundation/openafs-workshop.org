@@ -5,7 +5,6 @@ permalink: /talks/benefits-of-afs-protocol-enhancements/
 layout: workshop/talk
 presenters:
   - name: Andrew Deason
-    org: Sine Nomine Associates
 ---
 
 Many desired improvements to OpenAFS require changes to the AFS

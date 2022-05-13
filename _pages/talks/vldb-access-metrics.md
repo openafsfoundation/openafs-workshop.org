@@ -5,7 +5,6 @@ permalink: /talks/vldb-access-metrics/
 layout: workshop/talk
 presenters:
   - name: Andrew Deason
-    org: Sine Nomine Associates
 ---
 
 It can be very useful to know what volumes and hosts are causing the most
