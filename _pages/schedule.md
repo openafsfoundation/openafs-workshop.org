@@ -13,17 +13,18 @@ schedule:
       - ["12:00 - 12:30", "OpenAFS Foundation Report", ""]
       - ["12:30 - 13:00", "Lunch", "nodesc"]
       - ["13:00 - 13:30", "OpenAFS CSI Plugin updates", ""]
-      - ["13:30 - 14:00", "Features I'd like to see in Linux kAFS", ""]
+      - ["13:30 - 14:00", "OpenAFS Challenges with Apple Silicon Chip", ""]
       - ["14:00 - 14:20", "OpenAFS macOS client status report", ""]
       - ["14:20 - 14:45", "Break", "nodesc"]
-      - ["14:45 - 16:00", "BOF", "nodesc"]
+      - ["14:45 - 15:15", "Features I'd like to see in Linux kAFS", ""]
+      - ["15:15 - 16:00", "BOF", "nodesc"]
   - day: June 15, 2022
     slots:
       - ["10:00 - 10:25", "Benefits of AFS Protocol Enhancements", ""]
       - ["10:25 - 10:50", "Dynamic tracing and analysis of OpenAFS kernel module using Perf tool", ""]
       - ["10:50 - 11:15", "Memory Error Detector", ""]
       - ["11:15 - 11:40", "Using Vagrant for OpenAFS", ""]
-      - ["11:40 - 12:05", "OpenAFS Challenges with Apple Silicon Chip", ""]
+      - ["11:40 - 12:05", "Static Code Analyzer using Clang for OpenAFS", ""]
       - ["12:05 - 12:35", "Lunch", "nodesc"]
       - ["12:35 - 13:00", "OpenAFS development and testing with Ansible Molecule", ""]
       - ["13:00 - 13:25", "Using Virtualization to debug the OpenAFS Linux kernel module", ""]
@@ -43,9 +44,7 @@ schedule:
       - ["13:55 - 14:20", "VLDB Access Metrics", ""]
       - ["14:20 - 14:45", "Break", "nodesc"]
       - ["14:45 - 15:45", "RxTCP (RxTLS)", ""]
-      - ["15:15 - 16:00", "Farewell", "nodesc"]
-# "Features I'd like to see in AFS"
-# "Static Code Analyzer using Clang for OpenAFS"
+      - ["15:45 - 16:00", "Farewell", "nodesc"]
 ---
 
 All times are Eastern Daylight (UTC -4).
