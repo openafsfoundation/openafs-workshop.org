@@ -1,35 +1,40 @@
 .PHONY: all build setup install_apt install_gems clean distclean
 
+TESTDIR=/var/www/html
+PRODDIR=/afs/.grand.central.org/www/workshop.openafs.org
+
 include Makefile.config
 
 help:
 	@echo "usage: make [target]"
 	@echo "targets:"
 	@echo "  setup       to install jekyll"
-	@echo "  build       to build static site"
+	@echo "  test        to build test site"
+	@echo "  prod        to build production site"
 	@echo "  clean       to remove generated files"
 	@echo "  distclean   to remove jekyll too"
 	@echo ""
 	@echo "Makefile.config variables:"
-	@echo "  PKGMGR      system package manager: apt"
-	@echo "  DESTDIR     the build destination directory"
+	@echo "  BASEURL     the build destination subpath (one for each year)"
 
-build:
-	GEM_HOME=.ruby .ruby/bin/bundle exec .ruby/bin/jekyll build -d $(DESTDIR)
+test:
+	GEM_HOME=.ruby .ruby/bin/bundle exec .ruby/bin/jekyll build -d $(TESTDIR)$(BASEURL)
+
+prod:
+	GEM_HOME=.ruby .ruby/bin/bundle exec .ruby/bin/jekyll build -d $(PRODDIR)$(BASEURL)
 
 clean:
 	git clean -f -d -x -q \
 	  --exclude=.ruby/ \
 	  --exclude=vendor/ \
-	  --exclude=Gemfile.lock \
-	  --exclude=Makefile.config
+	  --exclude=Gemfile.lock
 
 distclean: clean
 	rm -rf .ruby/
 	rm -rf vendor/
 	rm -rf Gemfile.lock
 
-setup: install_$(PKGMGR) install_gems
+setup: install_apt install_gems
 
 # Install ruby and devel packages to build native extensions.
 install_apt:
@@ -42,6 +47,5 @@ install_gems: .ruby
 	GEM_HOME=.ruby/ gem install jekyll bundler
 	GEM_HOME=.ruby/ .ruby/bin/bundle install
 
-Makefile.config:
-	echo PKGMGR=apt    >Makefile.config
-	echo DESTDIR=_site >>Makefile.config
+Makefile.config: _config.yml
+	@grep baseurl _config.yml | sed -e 's@baseurl  *:  *@BASEURL=@' -e 's@"@@g' >Makefile.config
