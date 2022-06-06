@@ -12,6 +12,7 @@ related technologies.
 
 ### Past Workshops
 
+* <a href="https://workshop.openafs.org/afsbpw22">2022 AFS Technologies Workshop</a>
 * <a href="https://workshop.openafs.org/afsbpw21">2021 AFS Technologies Workshop</a>
 * <a href="https://workshop.openafs.org/afsbpw20">2020 AFS Technologies Workshop</a>
 * <a href="https://workshop.openafs.org/afsbpw19">2019 OpenAFS Workshop</a>
