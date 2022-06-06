@@ -8,11 +8,28 @@ title: "About"
 
 The AFS Technologies Workshop is a conference for users, administrators, and
 developers interested in learning more about the AFS distributed filesystem and
-related technologies.  This conference has been organized by the [OpenAFS
-Foundation][2], a non-profit dedicated to fostering the [OpenAFS][1] implementation
-of AFS.
+related technologies.
+
+### Past Workshops
+
+* <a href="https://workshop.openafs.org/afsbpw21">2021 AFS Technologies Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw20">2020 AFS Technologies Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw19">2019 OpenAFS Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw15">2015 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw12">2012 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw11">2011 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw10">2010 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw09">2009 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw08">2008 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw07">2007 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw06">2006 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw05">2005 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://www-conf.slac.stanford.edu/AFSBestPractices/">2004 AFS & Kerberos Best Practices Workshop</a>
 
 ## About the OpenAFS Foundation
+
+The AFS Workshope has been organized by the [OpenAFS Foundation][2],
+a non-profit dedicated to fostering the [OpenAFS][1] implementation of AFS.
 
 The [OpenAFS Foundation][2] is a 501(c)(3), US based, non-profit organization
 dedicated to fostering the stability and growth of [OpenAFS][1], an open source
