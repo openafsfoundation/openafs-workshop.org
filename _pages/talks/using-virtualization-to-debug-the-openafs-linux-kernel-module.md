@@ -6,6 +6,7 @@ layout: workshop/talk
 presenters:
   - name: Cheyenne Wills
     org: Sine Nomine Associates
+slides: virt-debugging.pdf
 ---
 
 Several of the Linux virtualization engines provide facilities that allow a

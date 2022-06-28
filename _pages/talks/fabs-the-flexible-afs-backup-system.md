@@ -6,6 +6,7 @@ layout: workshop/talk
 presenters:
   - name: Ralf Brunckhorst
     org: Sine Nomine Associates
+slides: Fabs-2022.pdf
 ---
 
 Introduction to FABS, a free/libre software project that allows you to

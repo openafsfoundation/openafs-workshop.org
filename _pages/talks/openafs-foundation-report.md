@@ -10,6 +10,7 @@ presenters:
     org: OpenAFS Foundation
   - name: Todd DeSantis
     org: OpenAFS Foundation
+slides: OpenAFS_Foundation_Report_2022.pdf
 ---
 
 The OpenAFS Foundation is a 501(c)(3), US based, non-profit organization

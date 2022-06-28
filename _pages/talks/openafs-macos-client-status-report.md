@@ -6,6 +6,7 @@ layout: workshop/talk
 presenters:
   - name: Marcio Barbosa
     org: Sine Nomine Associates
+slides: openafs_macos_client_status_report_afsbpw22.pdf
 ---
 
 Apple continues to make significant changes to macOS that the OpenAFS client

@@ -5,6 +5,7 @@ permalink: /talks/vldb-access-metrics/
 layout: workshop/talk
 presenters:
   - name: Andrew Deason
+slides: 202206_adeason-vlstat.pdf
 ---
 
 It can be very useful to know what volumes and hosts are causing the most

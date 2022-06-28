@@ -6,6 +6,7 @@ layout: workshop/talk
 presenters:
   - name: Michael Meffie
     org: Sine Nomine Associates
+slides: afsbpw-2022-molecule.pdf
 ---
 
 In this talk we demonstrate how to use Ansible Molecule to easily create

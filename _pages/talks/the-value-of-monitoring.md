@@ -6,6 +6,7 @@ layout: workshop/talk
 presenters:
   - name: Mark Vitale
     org: Sine Nomine Associates
+slides: The_Value_of_Monitoring.pdf
 ---
 
 We will recount the true story of how proactive monitoring of an AFS cell

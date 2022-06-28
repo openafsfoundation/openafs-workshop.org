@@ -8,6 +8,7 @@ presenters:
     org: OpenAFS Guardian
   - name: Michael Meffie
     org: OpenAFS Release Team
+slides: afsbpw-2022-openafs-report.pdf
 ---
 
 Updates on work that has been done for the OpenAFS stable release branches,

@@ -5,6 +5,7 @@ permalink: /talks/benefits-of-afs-protocol-enhancements/
 layout: workshop/talk
 presenters:
   - name: Andrew Deason
+slides: 202206_adeason-protocol.pdf
 ---
 
 Many desired improvements to OpenAFS require changes to the AFS
