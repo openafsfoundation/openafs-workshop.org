@@ -6,6 +6,7 @@ layout: workshop/talk
 presenters:
   - name: Diogo Castro
     org: CERN
+slides: CERN_Site_Status_Report.pdf
 ---
 
 Status of the OpenAFS deployment at CERN, current challenges and future
