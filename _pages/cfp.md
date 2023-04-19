@@ -4,7 +4,14 @@ permalink: /cfp/
 title: "Call for Presentations"
 ---
 
-Call for Presentations Deadline: April 18, 2023
+**The CFP deadline has been extended to 00:00 UTC April 24th, 2023.**
+
+Please send your talk proposals to
+<strong>
+<a href="mailto:openafs.workshop@gmail.com?subject=cfp" target="_blank">
+openafs.workshop@gmail.com
+</a>
+</strong>
 
 The 2023 AFS Technologies Workshop is a community based effort to promote the
 stability and growth of the AFS distributed file system and related
