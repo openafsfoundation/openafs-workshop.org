@@ -1,51 +1,91 @@
-.PHONY: all build setup install_apt install_gems clean distclean
-
-TESTDIR=/var/www/html
-PRODDIR=/afs/.grand.central.org/www/workshop.openafs.org
-
-include Makefile.config
-
+.PHONY: help
 help:
-	@echo "usage: make [target]"
-	@echo "targets:"
-	@echo "  setup       to install jekyll"
-	@echo "  test        to build test site"
-	@echo "  prod        to build production site"
-	@echo "  clean       to remove generated files"
-	@echo "  distclean   to remove jekyll too"
+	@echo "Usage: make <target> [DESTDIR=<path>]"
 	@echo ""
-	@echo "Makefile.config variables:"
-	@echo "  BASEURL     the build destination subpath (one for each year)"
+	@echo "Setup targets:"
+	@echo "  install-apt       to install ruby build dependencies with apt (requires sudo)"
+	@echo "  install-dnf       to install ruby build dependencies with dnf (requires sudo)"
+	@echo "  install-rbenv     to install rbenv and ruby (installs to ~/.rbenv)"
+	@echo "  install-bundle    to install jekyll and required gems"
+	@echo "  update-bundle     to update the gem versions (changes Gemfile.lock)"
+	@echo ""
+	@echo "Test targets:"
+	@echo "  preview           to preview with your browser"
+	@echo "  check             to verify the build"
+	@echo ""
+	@echo "Run targets:"
+	@echo "  workshop          to update the workshop website"
+	@echo ""
+	@echo "Cleanup targets:"
+	@echo "  clean             to remove generated files"
+	@echo "  reallyclean       to remove locally installed jekyll and gems"
 
-test:
-	GEM_HOME=.ruby .ruby/bin/bundle exec .ruby/bin/jekyll build -d $(TESTDIR)$(BASEURL)
+DESTDIR=_site
+PRODDIR=/afs/.grand.central.org/www/workshop.openafs.org
+BASEURL=/afsbpw23 # the site subpath
 
-prod:
-	GEM_HOME=.ruby .ruby/bin/bundle exec .ruby/bin/jekyll build -d $(PRODDIR)$(BASEURL)
+.PHONY: workshop
+workshop:
+	bash ruby-check.sh
+	bundle exec jekyll serve --open-url -d $(PRODDIR)$(BASEURL)
 
+.PHONY: preview
+preview: .install-bundle
+	bash ruby-check.sh
+	bundle exec jekyll serve --open-url -d $(DESTDIR)
+
+.PHONY: check
+check: .install-bundle
+	bash ruby-check.sh
+	bundle exec jekyll build -d $(DESTDIR)
+
+.PHONY: install-bundle
+install-bundle: .install-bundle
+
+# Install jekyll and ruby gems.
+.install-bundle: Gemfile
+	bash ruby-check.sh
+	gem install bundler
+	bundle config set path 'vendor/bundle'
+	bundle install
+	touch .install-bundle
+
+.PHONY: update
+update-bundle: .install-bundle
+	bash ruby-check.sh
+	bundle update
+
+.PHONY: clean
 clean:
-	git clean -f -d -x -q \
-	  --exclude=.ruby/ \
-	  --exclude=vendor/ \
-	  --exclude=Gemfile.lock
+	rm -rf _site
+	rm -rf .sass-cache
+	rm -rf .jekyll-cache
+	rm -rf .jekyll-metadata
 
-distclean: clean
-	rm -rf .ruby/
-	rm -rf vendor/
-	rm -rf Gemfile.lock
+.PHONY: reallyclean
+reallyclean: clean
+	rm -rf .install-bundle
+	rm -rf .bundle
+	rm -rf vendor
 
-setup: install_apt install_gems
+.PHONY: install-rbenv
+install-rbenv:
+	@echo "Installing rbenv"
+	curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+	@echo "Installing ruby"
+	~/.rbenv/bin/rbenv install $(cat .ruby-version)
+	@echo "Show rbenv setup instructions."
+	~/.rbenv/bin/rbenv init || true
 
-# Install ruby and devel packages to build native extensions.
-install_apt:
-	sudo apt install build-essential autoconf zlib1g-dev ruby ruby-dev
+# Install Debian/Ubuntu ruby-build dependencies
+.PHONY: install-apt
+install-apt:
+	apt-get install -y autoconf bison build-essential curl git libreadline6-dev \
+		libffi-dev libssl-dev libssl-dev libyaml-dev libyaml-dev zlib1g-dev
 
-# Install jekyll and ruby gems required by this theme.
-install_gems: .ruby
-.ruby:
-	mkdir -p .ruby
-	GEM_HOME=.ruby/ gem install jekyll bundler
-	GEM_HOME=.ruby/ .ruby/bin/bundle install
-
-Makefile.config: _config.yml
-	@grep baseurl _config.yml | sed -e 's@baseurl  *:  *@BASEURL=@' -e 's@"@@g' >Makefile.config
+# Install Fedora ruby-build dependencies
+.PHONY: install-dnf
+install-dnf:
+	dnf install -y autoconf automake bison bzip2 curl gcc-c++ git-core \
+		libffi-devel libtool libyaml-devel openssl-devel patch perl readline \
+		readline-devel sqlite-devel zlib zlib-devel
