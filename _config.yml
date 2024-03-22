@@ -194,6 +194,7 @@ exclude:
   - Makefile.config
   - .ruby
   - jekyll.yaml
+  - "*.sh"
 keep_files:
   - .git
   - .svn
