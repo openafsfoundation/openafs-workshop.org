@@ -27,7 +27,7 @@ BASEURL=/afsbpw24 # the site subpath
 .PHONY: workshop
 workshop:
 	bash ruby-check.sh
-	bundle exec jekyll serve --open-url -d $(PRODDIR)$(BASEURL)
+	bundle exec jekyll build -d $(PRODDIR)$(BASEURL)
 
 .PHONY: preview
 preview: .install-bundle
