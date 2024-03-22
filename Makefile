@@ -22,7 +22,7 @@ help:
 
 DESTDIR=_site
 PRODDIR=/afs/.grand.central.org/www/workshop.openafs.org
-BASEURL=/afsbpw23 # the site subpath
+BASEURL=/afsbpw24 # the site subpath
 
 .PHONY: workshop
 workshop:

@@ -4,7 +4,7 @@ permalink: /cfp/
 title: "Call for Presentations"
 ---
 
-The (YEAR) OpenAFS Workshop is a community based effort to promote the
+The 2024 OpenAFS Workshop is a community based effort to promote the
 stability and growth of the AFS distributed file system and related
 technologies.
 
