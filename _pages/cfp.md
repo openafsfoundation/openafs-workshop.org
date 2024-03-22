@@ -4,7 +4,7 @@ permalink: /cfp/
 title: "Call for Presentations"
 ---
 
-The YEAR AFS Technologies Workshop is a community based effort to promote the
+The (YEAR) OpenAFS Workshop is a community based effort to promote the
 stability and growth of the AFS distributed file system and related
 technologies.
 
@@ -18,17 +18,10 @@ workshop include presentations, panels, tutorials, and roundtable discussions.
 
 The workshop registration fee will be refunded for speakers.
 
-## Why Present
-
-* **Friendly Audiences**
-* **Rewarding Experience**
-* **Share Your Knowledge**
-* **Contribute to the Community**
-
 ## Topics of Interest
 
-Any topic generally related to AFS technologies will be considered. Areas of
-interest include, but are not limited too:
+Any topic generally related to OpenAFS will be considered. Areas of interest
+include, but are not limited too:
 
 * Site Reports
 * Best Practices and Lessons Learned

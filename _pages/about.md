@@ -4,17 +4,17 @@ permalink: /about/
 title: "About"
 ---
 
-## About the AFS Technologies Workshop
+## About the OpenAFS Workshop
 
-The AFS Technologies Workshop is a conference for users, administrators, and
-developers interested in learning more about the AFS distributed filesystem and
+The OpenAFS Workshop is a conference for users, administrators, and developers
+interested in learning more about the OpenAFS distributed filesystem and
 related technologies.
 
 ### Past Workshops
 
-* <a href="https://workshop.openafs.org/afsbpw22">2022 AFS Technologies Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw21">2021 AFS Technologies Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw20">2020 AFS Technologies Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw22">2022 OpenAFS Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw21">2021 OpenAFS Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw20">2020 OpenAFS Workshop</a>
 * <a href="https://workshop.openafs.org/afsbpw19">2019 OpenAFS Workshop</a>
 * <a href="https://workshop.openafs.org/afsbpw15">2015 AFS & Kerberos Best Practices Workshop</a>
 * <a href="https://workshop.openafs.org/afsbpw12">2012 AFS & Kerberos Best Practices Workshop</a>

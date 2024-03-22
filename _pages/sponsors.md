@@ -14,8 +14,8 @@ levels:
     sponsors:
 ---
 
-Stay tuned for AFS Technologies Workshop sponsorship announcements.
+Stay tuned for OpenAFS Workshop sponsorship announcements.
 
 ---
 
-Click [here]({{ site.baseurl }}/sponsorship/) to see how to sponsor the AFS Workshop.
+Click [here]({{ site.baseurl }}/sponsorship/) to see how to sponsor the OpenAFS Workshop.
