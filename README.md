@@ -1,48 +1,54 @@
 # openafs-workshop.org
 
-Static website for the OpenAFS Workshop, an conference for admins and
-developers interested in the AFS distributed filesystem.
+Static website for the OpenAFS Workshop; a conference for admins and developers
+interested in the AFS distributed filesystem.
 
-This site is based on the jekyll theme minimal-mistakes, which has been
-imported into this repo.
+This site generated with Jekyll and requires the minimal-mistakes theme, which
+has been imported into this repo.
+
+The Ruby rbenv and gem bundler projects are used to manage the ruby and gem
+depenencies.
+
+## Setup
+
+Install `git` and `make`.
+
+    $ sudo apt install git make
+
+Checkout the project:
+
+    $ git clone https://github.com/openafsfoundation/openafs-workshop.org.git
+    $ cd openafs-workshop.org
+
+Install system packages (requires sudo):
+
+    $ sudo make install-apt
+
+Install rbenv:
+
+    $ make install-rbenv
+
+Update your profile to activate rbenv. Add the following to your `$HOME/.bashrc`
+file then logout and login again.
+
+    eval "$($HOME/.rbenv/bin/rbenv init - bash)"
+
+Install the ruby gems:
+
+    $ make install-bundle
 
 ## Generating pages
 
-Install jekyll and the gems used by this theme to generate the site locally.
-Use Bundler to install jekyll and the gems required by this theme in order to
-get the correct versions.
+Each workshop enent is managed on a separate branch. Checkout the current year
+with:
 
-Checkout project directory.
+    $ git checkout workshop-2024
 
-    git clone https://github.com/openafsfoundation/openafs-workshop.org.git
-    cd openafs-workshop.org
+To generate a local copy and preview the pages in your browser:
 
-Install packages to build native extensions.
+    $ make preview
 
-    sudo apt-get update
-    sudo apt-get install build-essential autoconf
-    sudo apt-get install zlib1g-dev
+To update the production site (requires AFS tokens with write rights to the
+site path):
 
-[Install ruby][1]
-
-    sudo apt-get install ruby ruby-dev
-
-[Install bundler][2]
-
-    mkdir .ruby
-    export GEM_HOME=.ruby
-    export PATH=$PATH:.ruby/bin
-
-    gem install bundler
-
-In the project directory, run bundle to install the ruby gems.
-
-    bundle install
-
-In the project directory, run jekyll to generate the site:
-
-    jekyll build -d <path-to-doc-root>
-
-
-[1]: https://www.ruby-lang.org/en/documentation/installation/
-[2]: https://bundler.io/
+    $ make workshop
