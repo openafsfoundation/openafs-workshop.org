@@ -46,7 +46,7 @@ install-bundle: .install-bundle
 # Install jekyll and ruby gems.
 .install-bundle: Gemfile
 	bash ruby-check.sh
-	gem install bundler
+	gem install bundler --version 2.4.13
 	bundle config set path 'vendor/bundle'
 	bundle install
 	touch .install-bundle
