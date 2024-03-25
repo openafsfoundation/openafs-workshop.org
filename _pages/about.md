@@ -12,20 +12,21 @@ related technologies.
 
 ### Past Workshops
 
-* <a href="https://workshop.openafs.org/afsbpw22">2022 OpenAFS Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw21">2021 OpenAFS Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw20">2020 OpenAFS Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw19">2019 OpenAFS Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw15">2015 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw12">2012 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw11">2011 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw10">2010 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw09">2009 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw08">2008 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw07">2007 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw06">2006 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://workshop.openafs.org/afsbpw05">2005 AFS & Kerberos Best Practices Workshop</a>
-* <a href="https://www-conf.slac.stanford.edu/AFSBestPractices/">2004 AFS & Kerberos Best Practices Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw23/">2023 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw22/">2022 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw21/">2021 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw20/">2020 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw19/">2019 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw15/">2015 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw12/">2012 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw11/">2011 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw10/">2010 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw09/">2009 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw08/">2008 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw07/">2007 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw06/">2006 Workshop</a>
+* <a href="https://workshop.openafs.org/afsbpw05/">2005 Workshop</a>
+* <a href="https://www-conf.slac.stanford.edu/AFSBestPractices/">2004 Workshop</a>
 
 ## About the OpenAFS Foundation
 
@@ -44,7 +45,7 @@ The [OpenAFS Foundation][2] has a three-fold mission:
 
 ## Policy
 
-The AFS Workshop is dedicated to providing a harassment-free conference
+The OpenAFS Workshop is dedicated to providing a harassment-free conference
 experience for everyone, regardless of gender, gender identity and expression,
 sexual orientation, disability, physical appearance, body size, race, age or
 religion, or even which operating system you prefer. We do not tolerate

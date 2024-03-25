@@ -4,12 +4,10 @@ permalink: /cfp/
 title: "Call for Presentations"
 ---
 
-The 2024 OpenAFS Workshop is a community based effort to promote the
-stability and growth of the AFS distributed file system and related
-technologies.
+**Deadline: April 1, 2024**
 
-The workshop will be three half day workshops from 10:00am to 2:30pm Eastern
-time DATE, held virtually.
+The 2024 OpenAFS Workshop is a community based effort to promote the
+stability and growth of the OpenAFS distributed file system.
 
 We believe that all members of the AFS community have something valuable to
 share with others.  We invite you to submit a session proposal to share your
@@ -24,7 +22,7 @@ Any topic generally related to OpenAFS will be considered. Areas of interest
 include, but are not limited too:
 
 * Site Reports
-* Best Practices and Lessons Learned
+* Best Practices
 * Novel use cases for AFS
 * Development efforts
 * Tools and technology integration
@@ -39,7 +37,7 @@ would love to hear more!
 
 ## Submission Guidelines
 
-Deadline for submission: **DATE**
+Deadline for submission: **April 1, 2024**
 
 Proposals should contain:
 

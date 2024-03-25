@@ -4,7 +4,7 @@ title: "Code of Conduct"
 permalink: /code-of-conduct/
 ---
 
-The AFS Workshop is dedicated to providing a harassment-free conference
+The OpenAFS Workshop is dedicated to providing a harassment-free conference
 experience for everyone, regardless of gender, gender identity and expression,
 sexual orientation, disability, physical appearance, body size, race, age or
 religion (or lack thereof), or technology choices. We do not tolerate
