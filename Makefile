@@ -20,9 +20,10 @@ help:
 	@echo "  clean             to remove generated files"
 	@echo "  reallyclean       to remove locally installed jekyll and gems"
 
-DESTDIR=_site
-PRODDIR=/afs/.grand.central.org/www/workshop.openafs.org
-BASEURL=/afsbpw23 # the site subpath
+BASEURL  := /afsbpw24 # the site subpath
+DESTDIR  := _site
+PRODDIR  := /afs/.grand.central.org/www/workshop.openafs.org
+STAGEDIR := meffie:/var/www/workshop.meffie.org
 
 .PHONY: workshop
 workshop:
@@ -32,12 +33,12 @@ workshop:
 .PHONY: preview
 preview: .install-bundle
 	bash ruby-check.sh
-	bundle exec jekyll serve --open-url -d $(DESTDIR)
+	bundle exec jekyll serve --open-url -d $(DESTDIR)$(BASEURL)
 
 .PHONY: check
 check: .install-bundle
 	bash ruby-check.sh
-	bundle exec jekyll build -d $(DESTDIR)
+	bundle exec jekyll build -d $(DESTDIR)$(BASEURL)
 
 .PHONY: install-bundle
 install-bundle: .install-bundle
@@ -89,3 +90,7 @@ install-dnf:
 	dnf install -y autoconf automake bison bzip2 curl gcc-c++ git-core \
 		libffi-devel libtool libyaml-devel openssl-devel patch perl readline \
 		readline-devel sqlite-devel zlib zlib-devel
+
+.PHONE: stage
+stage: clean check
+	cd $(DESTDIR)$(BASEURL) && rsync -a . $(STAGEDIR)$(BASEURL)
