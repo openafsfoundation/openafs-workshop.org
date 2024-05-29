@@ -7,7 +7,7 @@ schedule:
     slots:
       - ["9:30 - 10:00", "Welcome", "nodesc"]
       - ["10:00 - 10:30", "Foundation Report", ""]
-      - ["10:30 - 11:15", "SNA: OpenAFS General Status + Stats", ""]
+      - ["10:30 - 11:15", "SNA: OpenAFS General Status and Stats", ""]
       - ["11:15 - 12:00", "Release Team and Process", ""]
       - ["12:00 - 12:30", "Lunch", ""]
       - ["12:30 - 13:00", "Qualcomm Site Report", ""]
@@ -21,7 +21,7 @@ schedule:
       - ["10:45 - 11:30", "IBM: Profiling", ""]
       - ["11:30 - 12:00", "Qualcomm Site Report", ""]
       - ["12:00 - 12:30", "Lunch", ""]
-      - ["12:30 - 13:00", "Introduction of OAFS Roadmap Draft", ""]
+      - ["12:30 - 13:00", "Introduction of OpenAFS Roadmap Draft", ""]
       - ["13:00 - 14:45", "Roadmap Feedback and Discussion", ""]
       - ["14:45 - 15:00", "Farewell", ""]
 ---
