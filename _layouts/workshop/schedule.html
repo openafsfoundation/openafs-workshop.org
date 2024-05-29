@@ -17,7 +17,7 @@ layout: single
     {% endif %}
     <tr>
       <td>{{ time }}</td>
-    {% if status contains "nodesc" %}
+    {% if status contains "nodesc" or status == "" %}
       <td>{{ title }}</td>
     {% else %}
       <td><a class="schedule" href="{{ link }}">{{ title }}</a></td>
