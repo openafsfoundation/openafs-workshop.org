@@ -12,7 +12,7 @@ schedule:
       - ["12:00 - 12:30", "Lunch", ""]
       - ["12:30 - 13:00", "Qualcomm Site Report", ""]
       - ["13:00 - 13:30", "IBM: RXGK Status Report", ""]
-      - ["13:30 - 14:30", "Auristor: Security Discussion", ""]
+      - ["13:30 - 14:30", "Birds of a Feather: Security Discussion", ""]
       - ["14:30 - 15:00", "Open Microphone", ""]
   - day: Tuesday, June 11th, 2024
     slots:
