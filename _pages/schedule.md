@@ -19,7 +19,7 @@ schedule:
       - ["9:30 - 10:00", "ENEA Site Report", ""]
       - ["10:00 - 10:45", "SNA: Platform Reports", ""]
       - ["10:45 - 11:30", "IBM: Profiling", ""]
-      - ["11:30 - 12:00", "Qualcomm Site Report", ""]
+      - ["11:30 - 12:00", "Qualcomm: OpenAFS and Secure Boot", ""]
       - ["12:00 - 12:30", "Lunch", ""]
       - ["12:30 - 13:00", "Introduction of OpenAFS Roadmap Draft", ""]
       - ["13:00 - 14:45", "Roadmap Feedback and Discussion", ""]
