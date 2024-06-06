@@ -8,20 +8,20 @@ layout: single
   <h3>{{ day.day }}</h3>
   <table class="schedule">
   {% for slot in day.slots %}
-    {% assign time = slot[0] | replace: " ", "&nbsp;" %}
-    {% assign title = slot[1] %}
-    {% assign status = slot[2] %}
-    {% assign link = title | slugify | prepend: "/talks/" | append: "/" | relative_url %}
-    {% if status contains "tentative" %}
-       {% assign title = title | prepend: "<strong>(Tentative)</strong> "%}
-    {% endif %}
+    {% assign time_from = slot[0] | replace: " ", "&nbsp;" %}
+    {% assign time_to = slot[1] | replace: " ", "&nbsp;" %}
+    {% assign title = slot[2] %}
+    {% assign presenter = slot[3] %}
+    {% assign have_link = "no" %}
     <tr>
-      <td>{{ time }}</td>
-    {% if status contains "nodesc" or status == "" %}
-      <td>{{ title }}</td>
-    {% else %}
+      <td>{{ time_from }}-{{ time_to }}</td>
+    {% if have_link == "yes" %}
+      {% assign link = title | slugify | prepend: "/talks/" | append: "/" | relative_url %}
       <td><a class="schedule" href="{{ link }}">{{ title }}</a></td>
+    {% else %}
+      <td>{{ title }}</td>
     {% endif %}
+      <td>{{ presenter }}</td>
     </tr>
   {% endfor %}
   </table>
