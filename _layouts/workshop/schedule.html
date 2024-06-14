@@ -12,6 +12,7 @@ layout: single
     {% assign time_to = slot[1] | replace: " ", "&nbsp;" %}
     {% assign title = slot[2] %}
     {% assign presenter = slot[3] %}
+    {% assign slides = slot[4] %}
     {% assign have_link = "no" %}
     <tr>
       <td>{{ time_from }}-{{ time_to }}</td>
@@ -19,7 +20,12 @@ layout: single
       {% assign link = title | slugify | prepend: "/talks/" | append: "/" | relative_url %}
       <td><a class="schedule" href="{{ link }}">{{ title }}</a></td>
     {% else %}
-      <td>{{ title }}</td>
+      <td>
+      {{ title }}
+      {% if slides != "" %}
+      <a class="schedule" target="_blank" href="{{ site.baseurl }}/assets/slides/{{ slides }}">(slides)</a>
+      {% endif %}
+      </td>
     {% endif %}
       <td>{{ presenter }}</td>
     </tr>
