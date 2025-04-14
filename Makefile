@@ -20,7 +20,7 @@ help:
 	@echo "  clean             to remove generated files"
 	@echo "  reallyclean       to remove locally installed jekyll and gems"
 
-BASEURL  := /afsbpw24 # the site subpath
+BASEURL  := /afsbpw25
 DESTDIR  := _site
 PRODDIR  := /afs/.grand.central.org/www/workshop.openafs.org
 STAGEDIR := meffie:/var/www/workshop.meffie.org

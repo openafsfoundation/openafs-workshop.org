@@ -17,17 +17,22 @@
 minimal_mistakes_skin    : "air"
 
 # Site Settings
+
+# The current year:
+masthead_title           : "2025 OpenAFS Workshop"
+
+# The site subpath for grand.central.org:
+baseurl                  : "/afsbpw25"
+
 locale                   : "en-US"
 title                    : "OpenAFS Workshop"
 title_separator          : "-"
 name                     : "OpenAFS Foundation"
-description              : "A workshop for OpenAFS operators and developers, (DATE)."
+description              : "A workshop for OpenAFS operators and developers."
 url                      : "https://workshop.openafs.org"
-baseurl                  : "/afsbpwYY" # the site subpath for grand.central.org
 repository               : "openafsfoundation/openafs-workshop.org"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "(YEAR) OpenAFS Workshop"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
