@@ -30,8 +30,13 @@ BASEURL  := /afsbpw25
 DESTDIR  := _site
 PRODDIR  := /afs/.grand.central.org/www/workshop.openafs.org
 STAGEDIR := meffie:/var/www/workshop.meffie.org
-IMAGE_NAME := ghcr.io/openafsfoundation/openafs-workshop.org/workshop
-IMAGE_VERSION := v1
+
+IMAGE_REGISTRY := ghcr.io
+IMAGE_OWNER    := openafsfoundation
+IMAGE_REPO     := openafs-workshop.org
+IMAGE_NAME     := jekyll
+IMAGE_VERSION  := v1
+IMAGE_FULLNAME := $(IMAGE_REGISTRY)/$(IMAGE_OWNER)/$(IMAGE_REPO)/$(IMAGE_NAME):$(IMAGE_VERSION)
 
 .PHONY: workshop
 workshop:
@@ -101,16 +106,16 @@ install-dnf:
 
 .PHONY: podman-image
 podman-image:
-	podman build -t workshop:$(IMAGE_VERSION) .
+	podman build -t $(IMAGE_FULLNAME) .
 
 .PHONY: podman-run
 podman-run: clean
 	mkdir -p _site
-	podman run --rm -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_NAME):$(IMAGE_VERSION)
+	podman run --rm -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_FULLNAME)
 
 .PHONY: podman-serve
 podman-serve: podman-run
-	podman run -ti --rm -p 4000:4000 -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_NAME):$(IMAGE_VERSION) ./jekyll.sh serve
+	podman run -ti --rm -p 4000:4000 -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_FULLNAME) ./jekyll.sh serve
 
 .PHONY: podman-deploy
 podman-deploy: podman-run
