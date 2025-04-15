@@ -106,7 +106,7 @@ podman-image:
 .PHONY: podman-run
 podman-run: clean
 	mkdir -p _site
-	podman run -ti --rm -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_NAME):$(IMAGE_VERSION)
+	podman run --rm -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_NAME):$(IMAGE_VERSION)
 
 .PHONY: podman-serve
 podman-serve: podman-run
