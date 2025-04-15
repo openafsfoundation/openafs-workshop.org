@@ -16,6 +16,12 @@ help:
 	@echo "Run targets:"
 	@echo "  workshop          to update the workshop website"
 	@echo ""
+	@echo "Container targets:"
+	@echo "  podman-image      to build a podman container image"
+	@echo "  podman-run        to generate pages with the podman container"
+	@echo "  podman-serve      to preview pages with the podman container"
+	@echo "  podman-deploy     to update the workshop website (requires an AFS token)"
+	@echo ""
 	@echo "Cleanup targets:"
 	@echo "  clean             to remove generated files"
 	@echo "  reallyclean       to remove locally installed jekyll and gems"
@@ -24,6 +30,8 @@ BASEURL  := /afsbpw25
 DESTDIR  := _site
 PRODDIR  := /afs/.grand.central.org/www/workshop.openafs.org
 STAGEDIR := meffie:/var/www/workshop.meffie.org
+IMAGE_NAME := workshop
+IMAGE_VERSION := v1
 
 .PHONY: workshop
 workshop:
@@ -91,6 +99,23 @@ install-dnf:
 		libffi-devel libtool libyaml-devel openssl-devel patch perl readline \
 		readline-devel sqlite-devel zlib zlib-devel
 
-.PHONE: stage
+.PHONY: podman-image
+podman-image:
+	podman build -t $(IMAGE_NAME):$(IMAGE_VERSION) .
+
+.PHONY: podman-run
+podman-run: clean
+	mkdir -p _site
+	podman run -ti --rm -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_NAME):$(IMAGE_VERSION)
+
+.PHONY: podman-serve
+podman-serve: podman-run
+	podman run -ti --rm -p 4000:4000 -v $(CURDIR):/app/src:ro -v $(CURDIR)/_site:/app/_site $(IMAGE_NAME):$(IMAGE_VERSION) ./jekyll.sh serve
+
+.PHONY: podman-deploy
+podman-deploy: podman-run
+	cd _site && rsync -a . $(PRODDIR)$(BASEURL)
+
+.PHONY: stage
 stage: clean check
 	cd $(DESTDIR)$(BASEURL) && rsync -a . $(STAGEDIR)$(BASEURL)

@@ -200,6 +200,7 @@ exclude:
   - .ruby
   - jekyll.yaml
   - "*.sh"
+  - Dockerfile
 keep_files:
   - .git
   - .svn
