@@ -30,7 +30,7 @@ BASEURL  := /afsbpw25
 DESTDIR  := _site
 PRODDIR  := /afs/.grand.central.org/www/workshop.openafs.org
 STAGEDIR := meffie:/var/www/workshop.meffie.org
-IMAGE_NAME := workshop
+IMAGE_NAME := ghcr.io/openafsfoundation/openafs-workshop.org/workshop
 IMAGE_VERSION := v1
 
 .PHONY: workshop
@@ -101,7 +101,7 @@ install-dnf:
 
 .PHONY: podman-image
 podman-image:
-	podman build -t $(IMAGE_NAME):$(IMAGE_VERSION) .
+	podman build -t workshop:$(IMAGE_VERSION) .
 
 .PHONY: podman-run
 podman-run: clean
