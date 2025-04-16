@@ -1,54 +1,30 @@
 # openafs-workshop.org
 
-Static website for the OpenAFS Workshop; a conference for admins and developers
-interested in the AFS distributed filesystem.
+This is the content for the [OpenAFS Workshop](https://workshop.openafs.org)
+static webite.
 
-This site generated with Jekyll and requires the minimal-mistakes theme, which
-has been imported into this repo.
+A pre-built Podman container image containing ruby, jekyll, and the required
+gems is used to generate the site from the markdown source files.
 
-The Ruby rbenv and gem bundler projects are used to manage the ruby and gem
-depenencies.
+Each conference year is on a separate git branch.
 
-## Setup
+## Instructions
 
-Install `git` and `make`.
+Install `podman`, `git`, and `make` on your system:
 
-    $ sudo apt install git make
+    sudo apt install git make podman
 
-Checkout the project:
+Clone this repository:
 
-    $ git clone https://github.com/openafsfoundation/openafs-workshop.org.git
-    $ cd openafs-workshop.org
+    git clone https://github.com/openafsfoundation/openafs-workshop.org.git
+    cd openafs-workshop.org
 
-Install system packages (requires sudo):
+Build the site with:
 
-    $ sudo make install-apt
+    make podman-run
 
-Install rbenv:
+The generated pages will be located in the `_site` directory.
 
-    $ make install-rbenv
+To preview the the generated site:
 
-Update your profile to activate rbenv. Add the following to your `$HOME/.bashrc`
-file then logout and login again.
-
-    eval "$($HOME/.rbenv/bin/rbenv init - bash)"
-
-Install the ruby gems:
-
-    $ make install-bundle
-
-## Generating pages
-
-Each workshop enent is managed on a separate branch. Checkout the current year
-with:
-
-    $ git checkout workshop-2024
-
-To generate a local copy and preview the pages in your browser:
-
-    $ make preview
-
-To update the production site (requires AFS tokens with write rights to the
-site path):
-
-    $ make workshop
+    make podman-serve
