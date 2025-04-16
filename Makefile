@@ -35,7 +35,7 @@ IMAGE_REGISTRY := ghcr.io
 IMAGE_OWNER    := openafsfoundation
 IMAGE_REPO     := openafs-workshop.org
 IMAGE_NAME     := jekyll
-IMAGE_VERSION  := v1
+IMAGE_VERSION  := v2
 IMAGE_FULLNAME := $(IMAGE_REGISTRY)/$(IMAGE_OWNER)/$(IMAGE_REPO)/$(IMAGE_NAME):$(IMAGE_VERSION)
 
 .PHONY: workshop
