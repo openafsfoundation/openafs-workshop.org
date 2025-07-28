@@ -14,7 +14,6 @@ ENV LANGUAGE="en_US.UTF-8"
 WORKDIR /app
 COPY \
   Gemfile \
-  Gemfile.lock \
   *.gemspec \
   jekyll.sh \
   Makefile \
