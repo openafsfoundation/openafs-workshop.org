@@ -22,11 +22,14 @@ COPY \
   .ruby-version \
   /app
 RUN chmod +x ruby-check.sh jekyll.sh
-RUN make install-apt install-rbenv install-bundle
 
 # Add a unused git repo to suppress this message when jekyll runs:
+#
 #   fatal: not a git repository (or any of the parent directories): .git
+#
 RUN git init -q .
+
+RUN make install-apt install-rbenv install-bundle
 
 # Cleanup.
 RUN rm -rf /var/lib/apt/lists/* && rm /app/Makefile
